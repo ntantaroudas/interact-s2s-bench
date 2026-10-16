@@ -1,0 +1,26 @@
+# Versions used to develop and test the benchmark (Python 3.13, Linux).
+# On the GPU machine install torch/torchaudio with CUDA 12 support
+# (https://pytorch.org/get-started/locally/) BEFORE this file, and make
+# cuBLAS/cuDNN 9 for CUDA 12 available to CTranslate2 (see README).
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+silero-vad==6.2.3
+torch>=2.4
+torchaudio>=2.4
+tiktoken>=0.7          # openai-whisper tokenizer used by SimulStreaming (P4)
+librosa>=0.10          # SimulStreaming / Whisper-Streaming audio utilities
+triton>=2.0.0; platform_machine=="x86_64" and sys_platform=="linux"   # SimulStreaming on GPU
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8        # figures (installs Pillow, which writes the TIFF and PNG files); text set in Liberation Sans (fonts-liberation)
+soundfile>=0.12
+jiwer==4.0.0
+meeteval==0.4.3
+simplemma==2.0.0
+more-itertools>=10
+regex>=2023.0
+pyyaml>=6.0
+tqdm>=4.66
+pytest>=8.0
+python-docx>=1.1    # manuscript/make_docx.py only (the Word version of the paper; also needs pandoc)

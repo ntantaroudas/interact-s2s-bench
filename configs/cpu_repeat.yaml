@@ -1,0 +1,21 @@
+# REPEATABILITY of the CPU study: the same runs as configs/cpu_small.yaml for one meeting,
+# written to a separate folder and compared with runs_cpu by scripts/repeatability.py.
+partition: eval
+meetings: [ES2004a]
+audio_dir: data/ami/audio
+out_dir: runs_cpu_repeat
+device: cpu
+compute_type: int8
+torch_threads: 2
+download_root: models/faster-whisper
+openai_model_dir: models/openai
+models: [small]
+excerpt_seconds: 180
+excerpt_position: middle
+comp_aware_runs: false
+comp_unaware: true
+policies:
+  - {id: P1-h1.0-c0.25, policy: fixed, hop: 1.0, context: 0.25}   # deployed INTERACT setting
+  - {id: P2-sil500, policy: vad, min_silence_ms: 500, max_utt: 15.0}
+  - {id: P3-la-1.0, policy: localagreement, min_chunk: 1.0, vac: true}
+  - {id: P4-aa-1.0, policy: alignatt, min_chunk: 1.0, vac: true, frame_threshold: 25}

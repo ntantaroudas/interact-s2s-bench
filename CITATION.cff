@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the accompanying article and this software."
+title: "INTERACT streaming speech-to-sign benchmark (s2sbench)"
+version: 1.0.0
+date-released: 2026-10-16
+abstract: >-
+  An open benchmark that measures how streaming speech recognition affects a real-time
+  dictionary-based International Sign avatar. It replays AMI meeting audio through four streaming
+  methods, maps the released words to the INTERACT International Sign dictionary and simulates
+  sequential avatar playback, scoring the transcript, the signs and their timing.
+authors:
+  - family-names: Tantaroudas
+    given-names: Nikolaos D.
+    affiliation: "Institute of Communication and Computer Systems (ICCS), Athens, Greece"
+    email: nikolaos.tantaroudas@iccs.gr
+    orcid: "https://orcid.org/0000-0001-6727-1014"
+  - family-names: McCracken
+    given-names: Andrew J.
+    affiliation: "DASKALOS-APPS, Péronnas, France"
+  - family-names: Karachalios
+    given-names: Ilias
+    affiliation: "University of Thessaly, Larissa, Greece"
+license: MIT
+repository-code: "https://github.com/ntantaroudas/interact-s2s-bench"
+keywords:
+  - streaming speech recognition
+  - Whisper
+  - simultaneous policy
+  - sign language avatar
+  - International Sign
+  - fingerspelling
+  - latency
+  - accessibility
+preferred-citation:
+  type: article
+  title: "Does a Faster Transcript Make a Better Signing Avatar? Streaming Speech Recognition for a Live International Sign Avatar"
+  authors:
+    - family-names: Tantaroudas
+      given-names: Nikolaos D.
+      orcid: "https://orcid.org/0000-0001-6727-1014"
+    - family-names: McCracken
+      given-names: Andrew J.
+    - family-names: Karachalios
+      given-names: Ilias
+  journal: "Preprints"
+  year: 2026
+  doi: "10.20944/preprints202610.0572.v1"
+  url: "https://doi.org/10.20944/preprints202610.0572.v1"

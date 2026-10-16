@@ -1,0 +1,20 @@
+# CORE grid (needed for the paper's main tables): the four headline policies,
+# Whisper large-v2 (INTERACT's model) and small, computation-aware, plus the
+# computation-unaware latency floor for large-v2.  One NVIDIA T4 (AWS g4dn.xlarge).
+# Run computation-aware jobs alone on the GPU: their timings are measurements.
+partition: eval
+audio_dir: data/ami/audio
+out_dir: runs
+device: cuda
+compute_type: float16
+download_root: models/faster-whisper     # CTranslate2 checkpoints (P1-P3), downloaded on first use
+openai_model_dir: models/openai          # openai-whisper .pt checkpoints (P4), downloaded on first use
+models: [large-v2, small]
+comp_unaware: true
+comp_unaware_models: [large-v2]
+comp_unaware_policies: [P1-h1.0-c0.25, P2-sil500, P3-la-1.0, P4-aa-1.0]
+policies:
+  - {id: P1-h1.0-c0.25, policy: fixed, hop: 1.0, context: 0.25}   # deployed INTERACT setting
+  - {id: P2-sil500, policy: vad, min_silence_ms: 500, max_utt: 15.0}
+  - {id: P3-la-1.0, policy: localagreement, min_chunk: 1.0, vac: true}
+  - {id: P4-aa-1.0, policy: alignatt, min_chunk: 1.0, vac: true, frame_threshold: 25}

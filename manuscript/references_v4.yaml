@@ -1,0 +1,117 @@
+# References for version 4 (plain-language version). Semicolon-free ORE-like style.
+# DOIs checked against Crossref/DataCite on 6-7 October 2026, web pages accessed on the dates given.
+
+radford2023: >-
+  Radford A, Kim JW, Xu T, Brockman G, McLeavey C, Sutskever I. Robust speech recognition via large-scale weak supervision. In: Proceedings of the 40th International Conference on Machine Learning (ICML 2023). PMLR, 2023, vol 202, pp. 28492–28518. https://proceedings.mlr.press/v202/radford23a.html
+machacek2023: >-
+  Macháček D, Dabre R, Bojar O. Turning Whisper into real-time transcription system. In: Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics: System Demonstrations. ACL, 2023, pp. 17–24. https://doi.org/10.18653/v1/2023.ijcnlp-demo.3
+wang2024: >-
+  Wang H, Hu G, Lin G, Zhang WQ, Li J. Simul-Whisper: attention-guided streaming Whisper with truncation detection. In: Proceedings of Interspeech 2024. ISCA, 2024, pp. 4483–4487. https://doi.org/10.21437/Interspeech.2024-1814
+machacek2025: >-
+  Macháček D, Polák P. Simultaneous translation with offline speech and LLM models in CUNI submission to IWSLT 2025. In: Proceedings of the 22nd International Conference on Spoken Language Translation (IWSLT 2025). ACL, 2025, pp. 389–398. https://doi.org/10.18653/v1/2025.iwslt-1.41
+papi2023alignatt: >-
+  Papi S, Turchi M, Negri M. AlignAtt: using attention-based audio-translation alignments as a guide for simultaneous speech translation. In: Proceedings of Interspeech 2023. ISCA, 2023, pp. 3974–3978. https://doi.org/10.21437/Interspeech.2023-170
+papi2023edatt: >-
+  Papi S, Negri M, Turchi M. Attention as a guide for simultaneous speech translation. In: Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). ACL, 2023, pp. 13340–13356. https://doi.org/10.18653/v1/2023.acl-long.745
+liu2020: >-
+  Liu D, Spanakis G, Niehues J. Low-latency sequence-to-sequence speech recognition and translation by partial hypothesis selection. In: Proceedings of Interspeech 2020. ISCA, 2020, pp. 3620–3624. https://doi.org/10.21437/Interspeech.2020-2897
+polak2022: >-
+  Polák P, Pham NQ, Nguyen TN, et al. CUNI-KIT system for simultaneous speech translation task at IWSLT 2022. In: Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022). ACL, 2022, pp. 277–285. https://doi.org/10.18653/v1/2022.iwslt-1.24
+ma2019: >-
+  Ma M, Huang L, Xiong H, et al. STACL: simultaneous translation with implicit anticipation and controllable latency using prefix-to-prefix framework. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. ACL, 2019, pp. 3025–3036. https://doi.org/10.18653/v1/P19-1289
+tsiamas2022: >-
+  Tsiamas I, Gállego GI, Fonollosa JAR, Costa-jussà MR. SHAS: approaching optimal segmentation for end-to-end speech translation. In: Proceedings of Interspeech 2022. ISCA, 2022, pp. 106–110. https://doi.org/10.21437/Interspeech.2022-59
+koenecke2024: >-
+  Koenecke A, Choi ASG, Mei KX, Schellmann H, Sloane M. Careless Whisper: speech-to-text hallucination harms. In: Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24). ACM, 2024, pp. 1672–1681. https://doi.org/10.1145/3630106.3658996
+carletta2006: >-
+  Carletta J, Ashby S, Bourban S, et al. The AMI meeting corpus: a pre-announcement. In: Renals S, Bengio S, editors. Machine Learning for Multimodal Interaction (MLMI 2005). Lecture Notes in Computer Science, vol 3869. Springer, Berlin, Heidelberg, 2006, pp. 28–39. https://doi.org/10.1007/11677482_3
+amisets: >-
+  AMI Consortium. Training, test and evaluation sets for the AMI corpus, and AMI Meeting Corpus licence (CC BY 4.0). University of Edinburgh. https://groups.inf.ed.ac.uk/ami/corpus/datasets.shtml and https://groups.inf.ed.ac.uk/ami/corpus/license.shtml (accessed 6 October 2026)
+vonneumann2023: >-
+  von Neumann T, Boeddeker C, Delcroix M, Haeb-Umbach R. MeetEval: a toolkit for computation of word error rates for meeting transcription systems. In: Proceedings of the 7th International Workshop on Speech Processing in Everyday Environments (CHiME 2023). ISCA, 2023, pp. 27–32. https://doi.org/10.21437/CHiME.2023-6
+kushalnagar2014: >-
+  Kushalnagar RS, Lasecki WS, Bigham JP. Accessibility evaluation of classroom captions. ACM Transactions on Accessible Computing. 2014, 5(3): 1–24. https://doi.org/10.1145/2543578
+kawas2016: >-
+  Kawas S, Karalis G, Wen T, Ladner RE. Improving real-time captioning experiences for deaf and hard of hearing students. In: Proceedings of the 18th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '16). ACM, 2016, pp. 15–23. https://doi.org/10.1145/2982142.2982164
+kafle2017: >-
+  Kafle S, Huenerfauth M. Evaluating the usability of automatically generated captions for people who are deaf or hard of hearing. In: Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '17). ACM, 2017, pp. 165–174. https://doi.org/10.1145/3132525.3132542
+pataca2024: >-
+  de Lacerda Pataca C, Hassan S, Tinker N, Peiris RL, Huenerfauth M. Caption Royale: exploring the design space of affective captions from the perspective of deaf and hard-of-hearing individuals. In: Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems (CHI '24). ACM, 2024, pp. 1–17. https://doi.org/10.1145/3613904.3642258
+cokely1986: >-
+  Cokely D. The effects of lag time on interpreter errors. Sign Language Studies. 1986, 53: 341–375. https://doi.org/10.1353/sls.1986.0025
+bragg2019: >-
+  Bragg D, Koller O, Bellard M, et al. Sign language recognition, generation, and translation: an interdisciplinary perspective. In: Proceedings of the 21st International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '19). ACM, 2019, pp. 16–31. https://doi.org/10.1145/3308561.3353774
+rastgoo2021: >-
+  Rastgoo R, Kiani K, Escalera S, Sabokrou M. Sign language production: a review. In: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). IEEE, 2021, pp. 3446–3456. https://doi.org/10.1109/CVPRW53098.2021.00384
+saunders2020: >-
+  Saunders B, Camgoz NC, Bowden R. Progressive transformers for end-to-end sign language production. In: Vedaldi A, Bischof H, Brox T, Frahm JM, editors. Computer Vision – ECCV 2020. Lecture Notes in Computer Science. Springer, Cham, 2020, pp. 687–705. https://doi.org/10.1007/978-3-030-58621-8_40
+zuo2024: >-
+  Zuo R, Wei F, Chen Z, Mak B, Yang J, Tong X. A simple baseline for spoken language to sign language translation with 3D avatars. In: Leonardis A, Ricci E, Roth S, Russakovsky O, Sattler T, Varol G, editors. Computer Vision – ECCV 2024. Lecture Notes in Computer Science, vol 15107. Springer, Cham, 2025, pp. 36–54. https://doi.org/10.1007/978-3-031-72967-6_3
+moryossef2023: >-
+  Moryossef A, Müller M, Göhring A, Jiang Z, Goldberg Y, Ebling S. An open-source gloss-based baseline for spoken to signed language translation. arXiv preprint arXiv:2305.17714. 2023. https://doi.org/10.48550/arXiv.2305.17714
+cox2002: >-
+  Cox S, Lincoln M, Tryggvason J, Nakisa M, Wells M, Tutt M, Abbott S. TESSA, a system to aid communication with deaf people. In: Proceedings of the Fifth International ACM Conference on Assistive Technologies (ASSETS '02). ACM, 2002, pp. 205–212. https://doi.org/10.1145/638249.638287
+elliott2008: >-
+  Elliott R, Glauert JRW, Kennaway JR, Marshall I, Safar E. Linguistic modelling and language-processing technologies for avatar-based sign language presentation. Universal Access in the Information Society. 2008, 6(4): 375–391. https://doi.org/10.1007/s10209-007-0102-z
+ebling2016: >-
+  Ebling S, Glauert J. Building a Swiss German Sign Language avatar with JASigning and evaluating it among the Deaf community. Universal Access in the Information Society. 2016, 15(4): 577–587. https://doi.org/10.1007/s10209-015-0408-1
+li2025: >-
+  Li Y. Human-centered editable speech-to-sign-language generation via streaming Conformer-Transformer and resampling hook. arXiv preprint arXiv:2506.14677. 2025. https://doi.org/10.48550/arXiv.2506.14677
+kipp2011: >-
+  Kipp M, Nguyen Q, Heloir A, Matthes S. Assessing the deaf user perspective on sign language avatars. In: Proceedings of the 13th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '11). ACM, 2011, pp. 107–114. https://doi.org/10.1145/2049536.2049557
+wasserroth2025: >-
+  Wasserroth F, Avramidis E, Czehmann V, Kojic T, Nunnari F, Möller S. Evaluation of a sign language avatar on comprehensibility, user experience & acceptability. In: Adjunct Proceedings of the 25th ACM International Conference on Intelligent Virtual Agents (IVA Adjunct '25). ACM, 2025, pp. 1–10. https://doi.org/10.1145/3742886.3756719
+wfd2018: >-
+  World Federation of the Deaf, World Association of Sign Language Interpreters. Statement on use of signing avatars. 14 March 2018 (updated 14 April 2018). https://wfdeaf.org/resources/statement-on-use-of-signing-avatars/ (accessed 6 October 2026)
+hiddinga2011: >-
+  Hiddinga A, Crasborn O. Signed languages and globalization. Language in Society. 2011, 40(4): 483–505. https://doi.org/10.1017/S0047404511000480
+bellugi1972: >-
+  Bellugi U, Fischer S. A comparison of sign language and spoken language. Cognition. 1972, 1(2–3): 173–200. https://doi.org/10.1016/0010-0277(72)90018-2
+padden2003: >-
+  Padden C, Gunsauls DC. How the alphabet came to be used in a sign language. Sign Language Studies. 2003, 4(1): 10–33. https://doi.org/10.1353/sls.2003.0026
+yin2021: >-
+  Yin K, Moryossef A, Hochgesang J, Goldberg Y, Alikhani M. Including signed languages in natural language processing. In: Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). ACL, 2021, pp. 7347–7360. https://doi.org/10.18653/v1/2021.acl-long.570
+tantaroudas2026ore: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. INTERACT: AI-powered extended reality platform for inclusive communication with real-time sign language translation and sentiment analysis. Open Research Europe. 2026, 6: 71. https://doi.org/10.12688/openreseurope.23201.1
+tantaroudas2026salento: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. Enhancing accessibility and inclusivity in business meetings through AI-driven extended reality solutions. In: De Paolis LT, Arpaia P, Sacco M, editors. Extended Reality. XR Salento 2025. Lecture Notes in Computer Science, vol 15743. Springer, Cham, 2026, pp. 74–84. https://doi.org/10.1007/978-3-031-97781-7_6
+tantaroudas2026ore2: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. AI-based services for inclusive language learning in immersive XR environments: speech translation, and sign language integration. Open Research Europe. 2026, 6: 72. https://doi.org/10.12688/openreseurope.23214.2
+tantaroudas2026salento2: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. AI-based services to support language-learning for deaf and hearing individuals in immersive XR settings. In: De Paolis LT, Arpaia P, Sacco M, editors. Extended Reality. XR Salento 2025. Lecture Notes in Computer Science, vol 15743. Springer, Cham, 2026, pp. 250–260. https://doi.org/10.1007/978-3-031-97781-7_17
+tantaroudas2026arxiv_interact: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. INTERACT: an AI-driven extended reality framework for accesible communication featuring real-time sign language interpretation and emotion recognition. arXiv preprint arXiv:2604.05605. 2026. https://doi.org/10.48550/arXiv.2604.05605
+tantaroudas2026arxiv_modular: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. AI-driven modular services for accessible multilingual education in immersive extended reality settings: integrating speech processing, translation, and sign language rendering. arXiv preprint arXiv:2604.05591. 2026. https://doi.org/10.48550/arXiv.2604.05591
+zenodo_isl: >-
+  Tantaroudas ND. International Sign extractions and data AVATAR animations [Software]. Zenodo, 2026. https://doi.org/10.5281/zenodo.18656296
+lugaresi2019: >-
+  Lugaresi C, Tang J, Nash H, et al. MediaPipe: a framework for building perception pipelines. arXiv preprint arXiv:1906.08172. 2019. https://doi.org/10.48550/arXiv.1906.08172
+little1961: >-
+  Little JDC. A proof for the queuing formula: L = λW. Operations Research. 1961, 9(3): 383–387. https://doi.org/10.1287/opre.9.3.383
+friedman1937: >-
+  Friedman M. The use of ranks to avoid the assumption of normality implicit in the analysis of variance. Journal of the American Statistical Association. 1937, 32(200): 675–701. https://doi.org/10.1080/01621459.1937.10503522
+wilcoxon1945: >-
+  Wilcoxon F. Individual comparisons by ranking methods. Biometrics Bulletin. 1945, 1(6): 80–83. https://doi.org/10.2307/3001968
+holm1979: >-
+  Holm S. A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics. 1979, 6(2): 65–70. https://www.jstor.org/stable/4615733
+efron1979: >-
+  Efron B. Bootstrap methods: another look at the jackknife. The Annals of Statistics. 1979, 7(1): 1–26. https://doi.org/10.1214/aos/1176344552
+demsar2006: >-
+  Demšar J. Statistical comparisons of classifiers over multiple data sets. Journal of Machine Learning Research. 2006, 7: 1–30. https://jmlr.org/papers/v7/demsar06a.html
+silero2024: >-
+  Silero Team. Silero VAD: pre-trained enterprise-grade voice activity detector (VAD), number detector and language classifier. GitHub, 2024. https://github.com/snakers4/silero-vad (accessed 6 October 2026)
+fasterwhisper: >-
+  SYSTRAN. faster-whisper: faster Whisper transcription with CTranslate2. GitHub. https://github.com/SYSTRAN/faster-whisper (accessed 6 October 2026)
+jiwer: >-
+  Vaessen N. JiWER: evaluate your speech-to-text system with similarity measures such as word error rate (WER). GitHub. https://github.com/jitsi/jiwer (accessed 6 October 2026)
+simplemma: >-
+  Barbaresi A, Diaz J. Simplemma, version 2.0.0 [Software]. Zenodo, 2026. https://doi.org/10.5281/zenodo.4673264
+aws_g4: >-
+  Amazon Web Services. Amazon EC2 G4 instances (NVIDIA T4 GPUs). https://aws.amazon.com/ec2/instance-types/g4/ (accessed 7 October 2026)
+cordis_cortex2: >-
+  European Commission. CORTEX2 project, Horizon Europe grant agreement ID 101070192. CORDIS. https://cordis.europa.eu/project/id/101070192 (accessed 7 October 2026)
+ma2020simuleval: >-
+  Ma X, Dousti MJ, Wang C, Gu J, Pino J. SIMULEVAL: an evaluation toolkit for simultaneous translation. In: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. ACL, 2020, pp. 144–150. https://doi.org/10.18653/v1/2020.emnlp-demos.19
+baranski2025: >-
+  Barański M, Jasiński J, Bartolewska J, Kacprzak S, Witkowski M, Kowalczyk K. Investigation of Whisper ASR hallucinations induced by non-speech audio. In: Proceedings of the 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025). IEEE, 2025, pp. 1–5. https://doi.org/10.1109/ICASSP49660.2025.10890105

@@ -1,0 +1,19 @@
+# CPU smoke test: one meeting, first 3 minutes, tiny model.  Checks the
+# pipeline end to end; the numbers are NOT results.
+partition: eval
+meetings: [ES2004a]
+limit_seconds: 180
+audio_dir: data/ami/audio
+out_dir: runs_smoke
+device: cpu
+compute_type: int8
+download_root: models/faster-whisper
+openai_model_dir: models/openai
+models: [tiny]
+comp_unaware: false
+policies:
+  - {id: P1-h1.0-c0.25, policy: fixed, hop: 1.0, context: 0.25}
+  - {id: P1-h1.0-c0,    policy: fixed, hop: 1.0, context: 0.0}
+  - {id: P2-sil500, policy: vad, min_silence_ms: 500, max_utt: 15.0}
+  - {id: P3-la-1.0, policy: localagreement, min_chunk: 1.0, vac: true}
+  - {id: P4-aa-1.0, policy: alignatt, min_chunk: 1.0, vac: true, frame_threshold: 25}

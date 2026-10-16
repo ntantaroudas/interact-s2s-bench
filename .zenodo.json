@@ -1,0 +1,46 @@
+{
+  "title": "INTERACT streaming speech-to-sign benchmark (s2sbench)",
+  "upload_type": "software",
+  "description": "Open benchmark that measures how streaming speech recognition affects a real-time International Sign avatar that plays one dictionary sign at a time and fingerspells the other words, as in the INTERACT meeting platform developed under the CORTEX2 Horizon Europe programme. It replays meeting audio of the AMI Meeting Corpus in real time through four streaming methods with Whisper (fixed chunks, pause-based utterances, LocalAgreement-2 and AlignAtt), maps the released words to International Sign with three text-to-sign rules, simulates the avatar's playback and scores the transcript, the signs and their timing, with a perfect-transcript analysis of the 16 evaluation meetings. The release contains the code, the configurations, the unit tests, the run files of every streaming run, all results, the figures and the build script of the accompanying article, 'How live transcription shapes a signing avatar: an open benchmark of streaming speech recognition for real-time International Sign translation in meetings' (submitted to Open Research Europe), whose shorter preprint is https://doi.org/10.20944/preprints202610.0572.v1. The code is under the MIT licence and the run files, results, dictionary metadata and figures are under CC BY 4.0 (LICENSE-DATA.md).",
+  "creators": [
+    {
+      "name": "Tantaroudas, Nikolaos D.",
+      "affiliation": "Institute of Communication and Computer Systems (ICCS)",
+      "orcid": "0000-0001-6727-1014"
+    },
+    {
+      "name": "McCracken, Andrew J.",
+      "affiliation": "DASKALOS-APPS"
+    },
+    {
+      "name": "Karachalios, Ilias",
+      "affiliation": "University of Thessaly"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "streaming speech recognition",
+    "Whisper",
+    "simultaneous policy",
+    "sign language avatar",
+    "International Sign",
+    "fingerspelling",
+    "latency",
+    "accessibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.20944/preprints202610.0572.v1",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.18656296",
+      "relation": "references",
+      "resource_type": "software"
+    }
+  ],
+  "language": "eng",
+  "notes": "Supported by FSTP funding from the Horizon Europe research and innovation programme of the European Union under grant agreement No. 101070192 (CORTEX2)."
+}

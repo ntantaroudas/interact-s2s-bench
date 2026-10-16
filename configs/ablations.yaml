@@ -1,0 +1,18 @@
+# ABLATIONS (reported descriptively): policy-parameter variants, Whisper large-v2 only.
+partition: eval
+audio_dir: data/ami/audio
+out_dir: runs
+device: cuda
+compute_type: float16
+download_root: models/faster-whisper
+openai_model_dir: models/openai
+models: [large-v2]
+comp_unaware: false
+policies:
+  - {id: P1-h1.0-c0,    policy: fixed, hop: 1.0, context: 0.0}    # no context: naive concatenation
+  - {id: P1-h2.0-c0.25, policy: fixed, hop: 2.0, context: 0.25}
+  - {id: P1-h3.0-c0.25, policy: fixed, hop: 3.0, context: 0.25}
+  - {id: P2-sil300, policy: vad, min_silence_ms: 300, max_utt: 15.0}
+  - {id: P3-la-2.0, policy: localagreement, min_chunk: 2.0, vac: true}
+  - {id: P4-aa-2.0, policy: alignatt, min_chunk: 2.0, vac: true, frame_threshold: 25}
+  - {id: P3-la-1.0-fd, policy: localagreement, min_chunk: 1.0, vac: true, final_decode: true}  # + final decode at end of voice

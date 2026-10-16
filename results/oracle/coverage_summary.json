@@ -1,0 +1,91 @@
+{
+ "dataset": {
+  "words_all": 87407,
+  "fillers": 4040,
+  "overlap_words": 23102,
+  "overlap_share": 0.27711204673311984,
+  "filler_share": 0.046220554417838386
+ },
+ "fs_topN_share_M1": {
+  "25": 0.23637246570353285,
+  "50": 0.3303387155517786,
+  "100": 0.4446198049451661,
+  "200": 0.5752903565213873
+ },
+ "fs_total_M1": 24711,
+ "oov_topN_share_M0": {
+  "25": 0.4510398275026953,
+  "50": 0.5626943329010484,
+  "100": 0.6678333151044515,
+  "200": 0.7612068561428728
+ },
+ "oov_total_M0": 64001,
+ "clip_timing_at_30fps": {
+  "signs": {
+   "n": 708,
+   "active_s_median": 1.9333333333333333,
+   "active_s_q1": 1.5333333333333334,
+   "active_s_q3": 2.2666666666666666,
+   "full_s_median": 6.866666666666666,
+   "full_s_q1": 5.966666666666667,
+   "full_s_q3": 7.633333333333334
+  },
+  "letters": {
+   "n": 26,
+   "active_s_median": 0.6,
+   "active_s_q1": 0.5,
+   "active_s_q3": 0.8,
+   "full_s_median": 5.6,
+   "full_s_q1": 5.408333333333333,
+   "full_s_q3": 5.775
+  }
+ },
+ "meetings": 16,
+ "hours": 9.062233333333333,
+ "words": 83367,
+ "overall_token_coverage_M0": 0.2322981515467751,
+ "per_meeting_ci": {
+  "words_per_min": {
+   "mean": 151.0500706644408,
+   "lo": 133.51685692113645,
+   "hi": 168.66926639621386
+  },
+  "token_coverage_M0": {
+   "mean": 0.23280958131758736,
+   "lo": 0.22215483864109478,
+   "hi": 0.24252085377939647
+  },
+  "type_coverage_M0": {
+   "mean": 0.1340359793277122,
+   "lo": 0.12729725425579275,
+   "hi": 0.1400614242981398
+  }
+ },
+ "lexicon": {
+  "files": 747,
+  "unique_keys": 744,
+  "collisions": {
+   "children": [
+    "Children.json",
+    "children.json"
+   ],
+   "president": [
+    "President.json",
+    "president.json"
+   ],
+   "wait": [
+    "Wait.json",
+    "wait.json"
+   ]
+  },
+  "letters": 26,
+  "numbers": 10,
+  "multiword": 91,
+  "unreachable_single_token": [
+   "day (2)",
+   "i (not letter)",
+   "week (2)",
+   "you (plural)"
+  ]
+ }
+}

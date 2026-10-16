@@ -1,0 +1,22 @@
+# CPU STUDY used in the paper (RQ2-RQ4).  Whisper small; one 3-minute excerpt from the middle of
+# each of the 16 AMI evaluation meetings (48 min); computation-unaware simulation, so the output
+# does not depend on processor speed.  P1-P3 run on faster-whisper/CTranslate2 (int8), P4 on
+# PyTorch (float32), 2 CPU threads.  Run with scripts/run_cpu_study.sh.
+partition: eval
+audio_dir: data/ami/audio
+out_dir: runs_cpu
+device: cpu
+compute_type: int8
+torch_threads: 2
+download_root: models/faster-whisper
+openai_model_dir: models/openai
+models: [small]
+excerpt_seconds: 180
+excerpt_position: middle
+comp_aware_runs: false
+comp_unaware: true
+policies:
+  - {id: P1-h1.0-c0.25, policy: fixed, hop: 1.0, context: 0.25}   # deployed INTERACT setting
+  - {id: P2-sil500, policy: vad, min_silence_ms: 500, max_utt: 15.0}
+  - {id: P3-la-1.0, policy: localagreement, min_chunk: 1.0, vac: true}
+  - {id: P4-aa-1.0, policy: alignatt, min_chunk: 1.0, vac: true, frame_threshold: 25}

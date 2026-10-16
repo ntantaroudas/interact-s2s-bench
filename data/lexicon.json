@@ -1,0 +1,5235 @@
+{
+ "source": "https://github.com/ntantaroudas/isl-extractions-main (landmarks/)",
+ "n_files": 747,
+ "entries": [
+  {
+   "key": "1",
+   "file": "1.json",
+   "frames": 153,
+   "active_first": 0,
+   "active_last": 2
+  },
+  {
+   "key": "10",
+   "file": "10.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "1st floor",
+   "file": "1st floor.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "2",
+   "file": "2.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "2nd floor",
+   "file": "2nd floor.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "3",
+   "file": "3.json",
+   "frames": 190,
+   "active_first": 0,
+   "active_last": 39
+  },
+  {
+   "key": "3rd floor",
+   "file": "3rd floor.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "4",
+   "file": "4.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "5",
+   "file": "5.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 26
+  },
+  {
+   "key": "6",
+   "file": "6.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 23
+  },
+  {
+   "key": "7",
+   "file": "7.json",
+   "frames": 178,
+   "active_first": 0,
+   "active_last": 27
+  },
+  {
+   "key": "8",
+   "file": "8.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "9",
+   "file": "9.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "a",
+   "file": "A.json",
+   "frames": 32,
+   "active_first": 5,
+   "active_last": 31
+  },
+  {
+   "key": "accessibility",
+   "file": "Accessibility.json",
+   "frames": 262,
+   "active_first": 18,
+   "active_last": 111
+  },
+  {
+   "key": "accident",
+   "file": "Accident.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "actions",
+   "file": "Actions.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "advocacy",
+   "file": "Advocacy.json",
+   "frames": 207,
+   "active_first": 2,
+   "active_last": 48
+  },
+  {
+   "key": "afghanistan",
+   "file": "Afghanistan.json",
+   "frames": 214,
+   "active_first": 1,
+   "active_last": 60
+  },
+  {
+   "key": "after work",
+   "file": "After work.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "afternoon",
+   "file": "Afternoon.json",
+   "frames": 210,
+   "active_first": 17,
+   "active_last": 59
+  },
+  {
+   "key": "again",
+   "file": "Again.json",
+   "frames": 167,
+   "active_first": 0,
+   "active_last": 40
+  },
+  {
+   "key": "agree",
+   "file": "Agree.json",
+   "frames": 206,
+   "active_first": 0,
+   "active_last": 79
+  },
+  {
+   "key": "airplane",
+   "file": "Airplane.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "albania",
+   "file": "Albania.json",
+   "frames": 238,
+   "active_first": 20,
+   "active_last": 84
+  },
+  {
+   "key": "algeria",
+   "file": "Algeria.json",
+   "frames": 242,
+   "active_first": 21,
+   "active_last": 86
+  },
+  {
+   "key": "analyze",
+   "file": "Analyze.json",
+   "frames": 274,
+   "active_first": 2,
+   "active_last": 121
+  },
+  {
+   "key": "andorra",
+   "file": "Andorra.json",
+   "frames": 242,
+   "active_first": 26,
+   "active_last": 86
+  },
+  {
+   "key": "angola",
+   "file": "Angola.json",
+   "frames": 238,
+   "active_first": 23,
+   "active_last": 86
+  },
+  {
+   "key": "announcement",
+   "file": "Announcement.json",
+   "frames": 250,
+   "active_first": 3,
+   "active_last": 99
+  },
+  {
+   "key": "answer",
+   "file": "Answer.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "antigua and barbuda",
+   "file": "Antigua and Barbuda.json",
+   "frames": 238,
+   "active_first": 23,
+   "active_last": 77
+  },
+  {
+   "key": "approve",
+   "file": "Approve.json",
+   "frames": 214,
+   "active_first": 10,
+   "active_last": 43
+  },
+  {
+   "key": "april",
+   "file": "April.json",
+   "frames": 165,
+   "active_first": 0,
+   "active_last": 13
+  },
+  {
+   "key": "argentina",
+   "file": "Argentina.json",
+   "frames": 245,
+   "active_first": 25,
+   "active_last": 83
+  },
+  {
+   "key": "arm",
+   "file": "Arm.json",
+   "frames": 195,
+   "active_first": 0,
+   "active_last": 68
+  },
+  {
+   "key": "armenia",
+   "file": "Armenia.json",
+   "frames": 235,
+   "active_first": 17,
+   "active_last": 79
+  },
+  {
+   "key": "arrange",
+   "file": "Arrange.json",
+   "frames": 197,
+   "active_first": 0,
+   "active_last": 70
+  },
+  {
+   "key": "ask for",
+   "file": "Ask for.json",
+   "frames": 181,
+   "active_first": 0,
+   "active_last": 54
+  },
+  {
+   "key": "association",
+   "file": "Association.json",
+   "frames": 213,
+   "active_first": 2,
+   "active_last": 52
+  },
+  {
+   "key": "attend",
+   "file": "Attend.json",
+   "frames": 224,
+   "active_first": 0,
+   "active_last": 97
+  },
+  {
+   "key": "auditorium",
+   "file": "Auditorium.json",
+   "frames": 247,
+   "active_first": 2,
+   "active_last": 94
+  },
+  {
+   "key": "august",
+   "file": "August.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 23
+  },
+  {
+   "key": "australia",
+   "file": "Australia.json",
+   "frames": 242,
+   "active_first": 17,
+   "active_last": 82
+  },
+  {
+   "key": "austria",
+   "file": "Austria.json",
+   "frames": 241,
+   "active_first": 24,
+   "active_last": 83
+  },
+  {
+   "key": "authorization",
+   "file": "Authorization.json",
+   "frames": 176,
+   "active_first": 0,
+   "active_last": 49
+  },
+  {
+   "key": "azerbaijan",
+   "file": "Azerbaijan.json",
+   "frames": 275,
+   "active_first": 31,
+   "active_last": 123
+  },
+  {
+   "key": "b",
+   "file": "B.json",
+   "frames": 20,
+   "active_first": 0,
+   "active_last": 19
+  },
+  {
+   "key": "baby",
+   "file": "Baby.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "bahamas",
+   "file": "Bahamas.json",
+   "frames": 238,
+   "active_first": 20,
+   "active_last": 81
+  },
+  {
+   "key": "bahrain",
+   "file": "Bahrain.json",
+   "frames": 218,
+   "active_first": 4,
+   "active_last": 60
+  },
+  {
+   "key": "bangladesh",
+   "file": "Bangladesh.json",
+   "frames": 226,
+   "active_first": 20,
+   "active_last": 67
+  },
+  {
+   "key": "bar",
+   "file": "Bar.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "barbados",
+   "file": "Barbados.json",
+   "frames": 236,
+   "active_first": 25,
+   "active_last": 78
+  },
+  {
+   "key": "barrier",
+   "file": "Barrier.json",
+   "frames": 283,
+   "active_first": 6,
+   "active_last": 122
+  },
+  {
+   "key": "bathroom",
+   "file": "Bathroom.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "be late",
+   "file": "Be late.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "beer",
+   "file": "Beer.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "before work",
+   "file": "Before work.json",
+   "frames": 206,
+   "active_first": 0,
+   "active_last": 79
+  },
+  {
+   "key": "begin",
+   "file": "Begin.json",
+   "frames": 217,
+   "active_first": 8,
+   "active_last": 52
+  },
+  {
+   "key": "belarus",
+   "file": "Belarus.json",
+   "frames": 226,
+   "active_first": 17,
+   "active_last": 74
+  },
+  {
+   "key": "belgium",
+   "file": "Belgium.json",
+   "frames": 229,
+   "active_first": 0,
+   "active_last": 73
+  },
+  {
+   "key": "belize",
+   "file": "Belize.json",
+   "frames": 215,
+   "active_first": 16,
+   "active_last": 63
+  },
+  {
+   "key": "benin",
+   "file": "Benin.json",
+   "frames": 220,
+   "active_first": 17,
+   "active_last": 64
+  },
+  {
+   "key": "bermuda",
+   "file": "Bermuda.json",
+   "frames": 229,
+   "active_first": 12,
+   "active_last": 74
+  },
+  {
+   "key": "best friend",
+   "file": "Best Friend.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "bhutan",
+   "file": "Bhutan.json",
+   "frames": 239,
+   "active_first": 15,
+   "active_last": 79
+  },
+  {
+   "key": "bike",
+   "file": "Bike.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "bilingual",
+   "file": "Bilingual.json",
+   "frames": 304,
+   "active_first": 23,
+   "active_last": 146
+  },
+  {
+   "key": "blood pressure",
+   "file": "Blood Pressure.json",
+   "frames": 220,
+   "active_first": 0,
+   "active_last": 92
+  },
+  {
+   "key": "blood",
+   "file": "Blood.json",
+   "frames": 214,
+   "active_first": 0,
+   "active_last": 87
+  },
+  {
+   "key": "board member",
+   "file": "Board Member.json",
+   "frames": 198,
+   "active_first": 7,
+   "active_last": 43
+  },
+  {
+   "key": "bolivia",
+   "file": "Bolivia.json",
+   "frames": 226,
+   "active_first": 11,
+   "active_last": 70
+  },
+  {
+   "key": "bones",
+   "file": "Bones.json",
+   "frames": 197,
+   "active_first": 0,
+   "active_last": 70
+  },
+  {
+   "key": "bored",
+   "file": "Bored.json",
+   "frames": 220,
+   "active_first": 0,
+   "active_last": 93
+  },
+  {
+   "key": "bosnia and herzegovin",
+   "file": "Bosnia and Herzegovin.json",
+   "frames": 239,
+   "active_first": 17,
+   "active_last": 77
+  },
+  {
+   "key": "botswana",
+   "file": "Botswana.json",
+   "frames": 232,
+   "active_first": 12,
+   "active_last": 70
+  },
+  {
+   "key": "boyfriend",
+   "file": "Boyfriend.json",
+   "frames": 177,
+   "active_first": null,
+   "active_last": null
+  },
+  {
+   "key": "brazil",
+   "file": "Brazil.json",
+   "frames": 215,
+   "active_first": 12,
+   "active_last": 50
+  },
+  {
+   "key": "bread",
+   "file": "Bread.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "break",
+   "file": "Break.json",
+   "frames": 227,
+   "active_first": 0,
+   "active_last": 100
+  },
+  {
+   "key": "breaktime",
+   "file": "Breaktime.json",
+   "frames": 268,
+   "active_first": 0,
+   "active_last": 110
+  },
+  {
+   "key": "brunei",
+   "file": "Brunei.json",
+   "frames": 232,
+   "active_first": 9,
+   "active_last": 64
+  },
+  {
+   "key": "building",
+   "file": "Building.json",
+   "frames": 182,
+   "active_first": 8,
+   "active_last": 55
+  },
+  {
+   "key": "bulgaria",
+   "file": "Bulgaria.json",
+   "frames": 221,
+   "active_first": 18,
+   "active_last": 58
+  },
+  {
+   "key": "burkina faso",
+   "file": "Burkina Faso.json",
+   "frames": 223,
+   "active_first": 6,
+   "active_last": 61
+  },
+  {
+   "key": "burundi",
+   "file": "Burundi.json",
+   "frames": 212,
+   "active_first": 4,
+   "active_last": 56
+  },
+  {
+   "key": "busy",
+   "file": "Busy.json",
+   "frames": 229,
+   "active_first": 0,
+   "active_last": 102
+  },
+  {
+   "key": "buy",
+   "file": "Buy.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "bye",
+   "file": "Bye.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "c",
+   "file": "C.json",
+   "frames": 10,
+   "active_first": 0,
+   "active_last": 9
+  },
+  {
+   "key": "chad",
+   "file": "CHAD.json",
+   "frames": 241,
+   "active_first": 0,
+   "active_last": 74
+  },
+  {
+   "key": "cabo verde",
+   "file": "Cabo Verde.json",
+   "frames": 278,
+   "active_first": 60,
+   "active_last": 116
+  },
+  {
+   "key": "calendar",
+   "file": "Calendar.json",
+   "frames": 179,
+   "active_first": 3,
+   "active_last": 52
+  },
+  {
+   "key": "cambodia",
+   "file": "Cambodia.json",
+   "frames": 257,
+   "active_first": 39,
+   "active_last": 87
+  },
+  {
+   "key": "cameroon",
+   "file": "Cameroon.json",
+   "frames": 262,
+   "active_first": 44,
+   "active_last": 101
+  },
+  {
+   "key": "camp",
+   "file": "Camp.json",
+   "frames": 219,
+   "active_first": 13,
+   "active_last": 56
+  },
+  {
+   "key": "canada",
+   "file": "Canada.json",
+   "frames": 232,
+   "active_first": 15,
+   "active_last": 79
+  },
+  {
+   "key": "cancel",
+   "file": "Cancel.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "cash",
+   "file": "Cash.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "central african rebublic",
+   "file": "Central African Rebublic.json",
+   "frames": 263,
+   "active_first": 45,
+   "active_last": 105
+  },
+  {
+   "key": "ceremony",
+   "file": "Ceremony.json",
+   "frames": 238,
+   "active_first": 6,
+   "active_last": 62
+  },
+  {
+   "key": "change",
+   "file": "Change.json",
+   "frames": 191,
+   "active_first": 0,
+   "active_last": 64
+  },
+  {
+   "key": "check",
+   "file": "Check.json",
+   "frames": 214,
+   "active_first": 0,
+   "active_last": 87
+  },
+  {
+   "key": "children",
+   "file": "Children.json",
+   "frames": 261,
+   "active_first": 21,
+   "active_last": 102
+  },
+  {
+   "key": "chile",
+   "file": "Chile.json",
+   "frames": 218,
+   "active_first": 8,
+   "active_last": 51
+  },
+  {
+   "key": "china",
+   "file": "China.json",
+   "frames": 217,
+   "active_first": 4,
+   "active_last": 27
+  },
+  {
+   "key": "choose",
+   "file": "Choose.json",
+   "frames": 219,
+   "active_first": 0,
+   "active_last": 68
+  },
+  {
+   "key": "close friend",
+   "file": "Close friend.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "close",
+   "file": "Close.json",
+   "frames": 198,
+   "active_first": 4,
+   "active_last": 44
+  },
+  {
+   "key": "closing ceremony",
+   "file": "Closing Ceremony.json",
+   "frames": 304,
+   "active_first": 5,
+   "active_last": 153
+  },
+  {
+   "key": "clouds",
+   "file": "Clouds.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "coffee",
+   "file": "Coffee.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "colleague",
+   "file": "Colleague.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "colombia",
+   "file": "Colombia.json",
+   "frames": 245,
+   "active_first": 32,
+   "active_last": 83
+  },
+  {
+   "key": "communication section",
+   "file": "Communication section.json",
+   "frames": 196,
+   "active_first": 0,
+   "active_last": 69
+  },
+  {
+   "key": "communication",
+   "file": "Communication.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 77
+  },
+  {
+   "key": "community",
+   "file": "Community.json",
+   "frames": 274,
+   "active_first": 22,
+   "active_last": 115
+  },
+  {
+   "key": "comoros",
+   "file": "Comoros.json",
+   "frames": 250,
+   "active_first": 32,
+   "active_last": 93
+  },
+  {
+   "key": "computer",
+   "file": "Computer.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "conference",
+   "file": "Conference.json",
+   "frames": 295,
+   "active_first": 4,
+   "active_last": 144
+  },
+  {
+   "key": "confirm",
+   "file": "Confirm.json",
+   "frames": 219,
+   "active_first": 0,
+   "active_last": 68
+  },
+  {
+   "key": "congo",
+   "file": "Congo.json",
+   "frames": 242,
+   "active_first": 32,
+   "active_last": 80
+  },
+  {
+   "key": "contagious",
+   "file": "Contagious.json",
+   "frames": 206,
+   "active_first": 0,
+   "active_last": 79
+  },
+  {
+   "key": "cooperation",
+   "file": "Cooperation.json",
+   "frames": 229,
+   "active_first": 3,
+   "active_last": 67
+  },
+  {
+   "key": "correct",
+   "file": "Correct.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "costa rica",
+   "file": "Costa Rica.json",
+   "frames": 238,
+   "active_first": 30,
+   "active_last": 75
+  },
+  {
+   "key": "cote d'lvoire",
+   "file": "Cote d'lvoire.json",
+   "frames": 238,
+   "active_first": 27,
+   "active_last": 81
+  },
+  {
+   "key": "country",
+   "file": "Country.json",
+   "frames": 241,
+   "active_first": 18,
+   "active_last": 81
+  },
+  {
+   "key": "credit card",
+   "file": "Credit Card.json",
+   "frames": 217,
+   "active_first": 0,
+   "active_last": 90
+  },
+  {
+   "key": "croatia",
+   "file": "Croatia.json",
+   "frames": 245,
+   "active_first": 33,
+   "active_last": 79
+  },
+  {
+   "key": "cuba",
+   "file": "Cuba.json",
+   "frames": 239,
+   "active_first": 26,
+   "active_last": 77
+  },
+  {
+   "key": "culture exchange",
+   "file": "Culture Exchange.json",
+   "frames": 289,
+   "active_first": 21,
+   "active_last": 125
+  },
+  {
+   "key": "culture",
+   "file": "Culture.json",
+   "frames": 238,
+   "active_first": 5,
+   "active_last": 80
+  },
+  {
+   "key": "cyprus",
+   "file": "Cyprus.json",
+   "frames": 235,
+   "active_first": 22,
+   "active_last": 73
+  },
+  {
+   "key": "czechia",
+   "file": "Czechia.json",
+   "frames": 236,
+   "active_first": 23,
+   "active_last": 72
+  },
+  {
+   "key": "d",
+   "file": "D.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "daughter",
+   "file": "Daughter.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "day (2)",
+   "file": "Day (2).json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "day",
+   "file": "Day.json",
+   "frames": 204,
+   "active_first": 3,
+   "active_last": 41
+  },
+  {
+   "key": "deafblind",
+   "file": "Deafblind.json",
+   "frames": 295,
+   "active_first": 27,
+   "active_last": 134
+  },
+  {
+   "key": "debate",
+   "file": "Debate.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "december",
+   "file": "December.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 35
+  },
+  {
+   "key": "decide",
+   "file": "Decide.json",
+   "frames": 210,
+   "active_first": 3,
+   "active_last": 47
+  },
+  {
+   "key": "decision",
+   "file": "Decision.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "democratic republic of congo",
+   "file": "Democratic Republic of Congo.json",
+   "frames": 253,
+   "active_first": 21,
+   "active_last": 99
+  },
+  {
+   "key": "denmark",
+   "file": "Denmark.json",
+   "frames": 223,
+   "active_first": 21,
+   "active_last": 65
+  },
+  {
+   "key": "dessert",
+   "file": "Dessert.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "develop",
+   "file": "Develop.json",
+   "frames": 280,
+   "active_first": 37,
+   "active_last": 122
+  },
+  {
+   "key": "developed",
+   "file": "Developed.json",
+   "frames": 252,
+   "active_first": 8,
+   "active_last": 81
+  },
+  {
+   "key": "developing",
+   "file": "Developing.json",
+   "frames": 277,
+   "active_first": 8,
+   "active_last": 118
+  },
+  {
+   "key": "development",
+   "file": "Development.json",
+   "frames": 280,
+   "active_first": 37,
+   "active_last": 122
+  },
+  {
+   "key": "dinner",
+   "file": "Dinner.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "disability",
+   "file": "Disability.json",
+   "frames": 228,
+   "active_first": 5,
+   "active_last": 68
+  },
+  {
+   "key": "diversity",
+   "file": "Diversity.json",
+   "frames": 229,
+   "active_first": 10,
+   "active_last": 60
+  },
+  {
+   "key": "divorced man",
+   "file": "Divorced man.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "divorced woman",
+   "file": "Divorced woman.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "dizziness",
+   "file": "Dizziness.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "djibouti",
+   "file": "Djibouti.json",
+   "frames": 214,
+   "active_first": 7,
+   "active_last": 59
+  },
+  {
+   "key": "document",
+   "file": "Document.json",
+   "frames": 181,
+   "active_first": 0,
+   "active_last": 54
+  },
+  {
+   "key": "dominica",
+   "file": "Dominica.json",
+   "frames": 226,
+   "active_first": 11,
+   "active_last": 71
+  },
+  {
+   "key": "dominican republic",
+   "file": "Dominican Republic.json",
+   "frames": 217,
+   "active_first": 6,
+   "active_last": 62
+  },
+  {
+   "key": "don't know",
+   "file": "Don't know.json",
+   "frames": 219,
+   "active_first": 24,
+   "active_last": 67
+  },
+  {
+   "key": "don't like",
+   "file": "Don't like.json",
+   "frames": 216,
+   "active_first": 7,
+   "active_last": 51
+  },
+  {
+   "key": "don't want",
+   "file": "Don't want.json",
+   "frames": 229,
+   "active_first": 14,
+   "active_last": 63
+  },
+  {
+   "key": "door",
+   "file": "Door.json",
+   "frames": 200,
+   "active_first": 0,
+   "active_last": 73
+  },
+  {
+   "key": "drink",
+   "file": "Drink.json",
+   "frames": 169,
+   "active_first": 0,
+   "active_last": 42
+  },
+  {
+   "key": "e",
+   "file": "E.json",
+   "frames": 163,
+   "active_first": 0,
+   "active_last": 12
+  },
+  {
+   "key": "early",
+   "file": "Early.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 71
+  },
+  {
+   "key": "earth",
+   "file": "Earth.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 77
+  },
+  {
+   "key": "eat",
+   "file": "Eat.json",
+   "frames": 162,
+   "active_first": 0,
+   "active_last": 35
+  },
+  {
+   "key": "ecuador",
+   "file": "Ecuador.json",
+   "frames": 241,
+   "active_first": 26,
+   "active_last": 80
+  },
+  {
+   "key": "egypt",
+   "file": "Egypt.json",
+   "frames": 214,
+   "active_first": 8,
+   "active_last": 58
+  },
+  {
+   "key": "el salvador",
+   "file": "El Salvador.json",
+   "frames": 253,
+   "active_first": 38,
+   "active_last": 93
+  },
+  {
+   "key": "elevator",
+   "file": "Elevator.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "email",
+   "file": "Email.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "employment",
+   "file": "Employment.json",
+   "frames": 243,
+   "active_first": 6,
+   "active_last": 89
+  },
+  {
+   "key": "empower",
+   "file": "Empower.json",
+   "frames": 229,
+   "active_first": 15,
+   "active_last": 64
+  },
+  {
+   "key": "end",
+   "file": "End.json",
+   "frames": 228,
+   "active_first": 0,
+   "active_last": 48
+  },
+  {
+   "key": "england",
+   "file": "England.json",
+   "frames": 220,
+   "active_first": 11,
+   "active_last": 65
+  },
+  {
+   "key": "entrance",
+   "file": "Entrance.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "equality",
+   "file": "Equality.json",
+   "frames": 204,
+   "active_first": 6,
+   "active_last": 43
+  },
+  {
+   "key": "equatorial guinea",
+   "file": "Equatorial Guinea.json",
+   "frames": 274,
+   "active_first": 50,
+   "active_last": 117
+  },
+  {
+   "key": "eritrea",
+   "file": "Eritrea.json",
+   "frames": 256,
+   "active_first": 37,
+   "active_last": 100
+  },
+  {
+   "key": "establish",
+   "file": "Establish.json",
+   "frames": 240,
+   "active_first": 25,
+   "active_last": 85
+  },
+  {
+   "key": "estonia",
+   "file": "Estonia.json",
+   "frames": 235,
+   "active_first": 22,
+   "active_last": 75
+  },
+  {
+   "key": "eswatini",
+   "file": "Eswatini.json",
+   "frames": 229,
+   "active_first": 8,
+   "active_last": 73
+  },
+  {
+   "key": "ethiopia",
+   "file": "Ethiopia.json",
+   "frames": 223,
+   "active_first": 10,
+   "active_last": 64
+  },
+  {
+   "key": "excel",
+   "file": "Excel.json",
+   "frames": 191,
+   "active_first": 0,
+   "active_last": 64
+  },
+  {
+   "key": "f",
+   "file": "F.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 23
+  },
+  {
+   "key": "facebook",
+   "file": "Facebook.json",
+   "frames": 181,
+   "active_first": 0,
+   "active_last": 54
+  },
+  {
+   "key": "faint",
+   "file": "Faint.json",
+   "frames": 196,
+   "active_first": 0,
+   "active_last": 69
+  },
+  {
+   "key": "false",
+   "file": "False.json",
+   "frames": 259,
+   "active_first": 35,
+   "active_last": 105
+  },
+  {
+   "key": "fast",
+   "file": "Fast.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "favor",
+   "file": "Favor.json",
+   "frames": 178,
+   "active_first": 9,
+   "active_last": 27
+  },
+  {
+   "key": "february",
+   "file": "February.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 16
+  },
+  {
+   "key": "fever",
+   "file": "Fever.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "file",
+   "file": "File.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "finish",
+   "file": "Finish.json",
+   "frames": 205,
+   "active_first": 5,
+   "active_last": 39
+  },
+  {
+   "key": "finland",
+   "file": "Finland.json",
+   "frames": 253,
+   "active_first": 38,
+   "active_last": 97
+  },
+  {
+   "key": "fire",
+   "file": "Fire.json",
+   "frames": 197,
+   "active_first": 0,
+   "active_last": 70
+  },
+  {
+   "key": "fish",
+   "file": "Fish.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "flight",
+   "file": "Flight.json",
+   "frames": 292,
+   "active_first": 75,
+   "active_last": 132
+  },
+  {
+   "key": "floor",
+   "file": "Floor.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "flue",
+   "file": "Flue.json",
+   "frames": 211,
+   "active_first": 0,
+   "active_last": 84
+  },
+  {
+   "key": "food",
+   "file": "Food.json",
+   "frames": 271,
+   "active_first": 7,
+   "active_last": 112
+  },
+  {
+   "key": "france",
+   "file": "France.json",
+   "frames": 229,
+   "active_first": 10,
+   "active_last": 66
+  },
+  {
+   "key": "friday",
+   "file": "Friday.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 26
+  },
+  {
+   "key": "friend",
+   "file": "Friend.json",
+   "frames": 231,
+   "active_first": 7,
+   "active_last": 59
+  },
+  {
+   "key": "friends",
+   "file": "Friends.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "fruit",
+   "file": "Fruit.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "future",
+   "file": "Future.json",
+   "frames": 219,
+   "active_first": 12,
+   "active_last": 55
+  },
+  {
+   "key": "g",
+   "file": "G.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "gabon",
+   "file": "Gabon.json",
+   "frames": 208,
+   "active_first": 7,
+   "active_last": 51
+  },
+  {
+   "key": "gambia",
+   "file": "Gambia.json",
+   "frames": 244,
+   "active_first": 23,
+   "active_last": 88
+  },
+  {
+   "key": "game",
+   "file": "Game.json",
+   "frames": 205,
+   "active_first": 7,
+   "active_last": 48
+  },
+  {
+   "key": "georgia",
+   "file": "Georgia.json",
+   "frames": 232,
+   "active_first": 27,
+   "active_last": 79
+  },
+  {
+   "key": "germany",
+   "file": "Germany.json",
+   "frames": 217,
+   "active_first": 4,
+   "active_last": 62
+  },
+  {
+   "key": "get",
+   "file": "Get.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "ghana",
+   "file": "Ghana.json",
+   "frames": 229,
+   "active_first": 13,
+   "active_last": 73
+  },
+  {
+   "key": "gibraltar",
+   "file": "Gibraltar.json",
+   "frames": 220,
+   "active_first": 3,
+   "active_last": 67
+  },
+  {
+   "key": "girlfriend",
+   "file": "Girlfriend.json",
+   "frames": 190,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "go down",
+   "file": "Go down.json",
+   "frames": 191,
+   "active_first": 0,
+   "active_last": 64
+  },
+  {
+   "key": "go up",
+   "file": "Go up.json",
+   "frames": 159,
+   "active_first": 0,
+   "active_last": 32
+  },
+  {
+   "key": "go",
+   "file": "Go.json",
+   "frames": 172,
+   "active_first": 0,
+   "active_last": 45
+  },
+  {
+   "key": "good morning",
+   "file": "Good Morning.json",
+   "frames": 240,
+   "active_first": 15,
+   "active_last": 87
+  },
+  {
+   "key": "good afternoon",
+   "file": "Good afternoon.json",
+   "frames": 242,
+   "active_first": 0,
+   "active_last": 115
+  },
+  {
+   "key": "good idea",
+   "file": "Good idea.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "good luck",
+   "file": "Good luck.json",
+   "frames": 249,
+   "active_first": 0,
+   "active_last": 122
+  },
+  {
+   "key": "good night",
+   "file": "Good night.json",
+   "frames": 225,
+   "active_first": 0,
+   "active_last": 98
+  },
+  {
+   "key": "good",
+   "file": "Good.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "grandfather",
+   "file": "Grandfather.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "grandmother",
+   "file": "Grandmother.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "great",
+   "file": "Great.json",
+   "frames": 195,
+   "active_first": 0,
+   "active_last": 68
+  },
+  {
+   "key": "greece",
+   "file": "Greece.json",
+   "frames": 56,
+   "active_first": 9,
+   "active_last": 43
+  },
+  {
+   "key": "greenland",
+   "file": "Greenland.json",
+   "frames": 226,
+   "active_first": 5,
+   "active_last": 71
+  },
+  {
+   "key": "grenada",
+   "file": "Grenada.json",
+   "frames": 223,
+   "active_first": 9,
+   "active_last": 69
+  },
+  {
+   "key": "groundfloor",
+   "file": "Groundfloor.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "group",
+   "file": "Group.json",
+   "frames": 207,
+   "active_first": 5,
+   "active_last": 42
+  },
+  {
+   "key": "guam",
+   "file": "Guam.json",
+   "frames": 220,
+   "active_first": 17,
+   "active_last": 66
+  },
+  {
+   "key": "guatemala",
+   "file": "Guatemala.json",
+   "frames": 232,
+   "active_first": 22,
+   "active_last": 74
+  },
+  {
+   "key": "guinea-bissau",
+   "file": "Guinea-Bissau.json",
+   "frames": 259,
+   "active_first": 41,
+   "active_last": 100
+  },
+  {
+   "key": "guinea",
+   "file": "Guinea.json",
+   "frames": 242,
+   "active_first": 28,
+   "active_last": 79
+  },
+  {
+   "key": "guyana",
+   "file": "Guyana.json",
+   "frames": 239,
+   "active_first": 14,
+   "active_last": 74
+  },
+  {
+   "key": "h",
+   "file": "H.json",
+   "frames": 175,
+   "active_first": 0,
+   "active_last": 24
+  },
+  {
+   "key": "hr section",
+   "file": "HR section.json",
+   "frames": 231,
+   "active_first": 0,
+   "active_last": 104
+  },
+  {
+   "key": "haiti",
+   "file": "Haiti.json",
+   "frames": 220,
+   "active_first": 9,
+   "active_last": 58
+  },
+  {
+   "key": "happy",
+   "file": "Happy.json",
+   "frames": 217,
+   "active_first": 13,
+   "active_last": 63
+  },
+  {
+   "key": "have",
+   "file": "Have.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 30
+  },
+  {
+   "key": "he",
+   "file": "He.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "head",
+   "file": "Head.json",
+   "frames": 169,
+   "active_first": 0,
+   "active_last": 42
+  },
+  {
+   "key": "headache",
+   "file": "Headache.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 77
+  },
+  {
+   "key": "hearing",
+   "file": "Hearing.json",
+   "frames": 235,
+   "active_first": 12,
+   "active_last": 57
+  },
+  {
+   "key": "heart",
+   "file": "Heart.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "help",
+   "file": "Help.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 45
+  },
+  {
+   "key": "holly see",
+   "file": "Holly see.json",
+   "frames": 217,
+   "active_first": 4,
+   "active_last": 61
+  },
+  {
+   "key": "home",
+   "file": "Home.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "homeoffice",
+   "file": "Homeoffice.json",
+   "frames": 197,
+   "active_first": 0,
+   "active_last": 70
+  },
+  {
+   "key": "honduras",
+   "file": "Honduras.json",
+   "frames": 247,
+   "active_first": 27,
+   "active_last": 85
+  },
+  {
+   "key": "hong kong",
+   "file": "Hong Kong.json",
+   "frames": 247,
+   "active_first": 22,
+   "active_last": 88
+  },
+  {
+   "key": "hope",
+   "file": "Hope.json",
+   "frames": 213,
+   "active_first": 15,
+   "active_last": 49
+  },
+  {
+   "key": "hotel",
+   "file": "Hotel.json",
+   "frames": 301,
+   "active_first": 9,
+   "active_last": 137
+  },
+  {
+   "key": "hour",
+   "file": "Hour.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "how",
+   "file": "How.json",
+   "frames": 234,
+   "active_first": 25,
+   "active_last": 69
+  },
+  {
+   "key": "human rights",
+   "file": "Human Rights.json",
+   "frames": 237,
+   "active_first": 4,
+   "active_last": 66
+  },
+  {
+   "key": "hungary",
+   "file": "Hungary.json",
+   "frames": 234,
+   "active_first": 20,
+   "active_last": 70
+  },
+  {
+   "key": "hungry",
+   "file": "Hungry.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "hurt",
+   "file": "Hurt.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "husband",
+   "file": "Husband.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "i (not letter)",
+   "file": "I (not letter).json",
+   "frames": 149,
+   "active_first": 1,
+   "active_last": 22
+  },
+  {
+   "key": "i",
+   "file": "I.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "id",
+   "file": "ID.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "it section",
+   "file": "IT section.json",
+   "frames": 222,
+   "active_first": 0,
+   "active_last": 95
+  },
+  {
+   "key": "iceland",
+   "file": "Iceland.json",
+   "frames": 233,
+   "active_first": 23,
+   "active_last": 75
+  },
+  {
+   "key": "identity",
+   "file": "Identity.json",
+   "frames": 273,
+   "active_first": 7,
+   "active_last": 121
+  },
+  {
+   "key": "important",
+   "file": "Important.json",
+   "frames": 211,
+   "active_first": 3,
+   "active_last": 50
+  },
+  {
+   "key": "india",
+   "file": "India.json",
+   "frames": 217,
+   "active_first": 6,
+   "active_last": 63
+  },
+  {
+   "key": "indonesia",
+   "file": "Indonesia.json",
+   "frames": 214,
+   "active_first": 4,
+   "active_last": 56
+  },
+  {
+   "key": "initiate",
+   "file": "Initiate.json",
+   "frames": 240,
+   "active_first": 25,
+   "active_last": 85
+  },
+  {
+   "key": "international organisation",
+   "file": "International organisation.json",
+   "frames": 229,
+   "active_first": 0,
+   "active_last": 102
+  },
+  {
+   "key": "internet connection",
+   "file": "Internet Connection.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "interpreter",
+   "file": "Interpreter.json",
+   "frames": 222,
+   "active_first": 5,
+   "active_last": 62
+  },
+  {
+   "key": "interrogate",
+   "file": "Interrogate.json",
+   "frames": 253,
+   "active_first": 4,
+   "active_last": 93
+  },
+  {
+   "key": "interrupt",
+   "file": "Interrupt.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 44
+  },
+  {
+   "key": "invitation",
+   "file": "Invitation.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "involve",
+   "file": "Involve.json",
+   "frames": 213,
+   "active_first": 9,
+   "active_last": 49
+  },
+  {
+   "key": "iran",
+   "file": "Iran.json",
+   "frames": 220,
+   "active_first": 3,
+   "active_last": 65
+  },
+  {
+   "key": "ireland",
+   "file": "Ireland.json",
+   "frames": 223,
+   "active_first": 3,
+   "active_last": 68
+  },
+  {
+   "key": "issue",
+   "file": "Issue.json",
+   "frames": 265,
+   "active_first": 21,
+   "active_last": 114
+  },
+  {
+   "key": "j",
+   "file": "J.json",
+   "frames": 165,
+   "active_first": 0,
+   "active_last": 14
+  },
+  {
+   "key": "jamaica",
+   "file": "Jamaica.json",
+   "frames": 235,
+   "active_first": 27,
+   "active_last": 77
+  },
+  {
+   "key": "january",
+   "file": "January.json",
+   "frames": 187,
+   "active_first": 14,
+   "active_last": 36
+  },
+  {
+   "key": "japan",
+   "file": "Japan.json",
+   "frames": 218,
+   "active_first": 2,
+   "active_last": 59
+  },
+  {
+   "key": "july",
+   "file": "July.json",
+   "frames": 175,
+   "active_first": 0,
+   "active_last": 24
+  },
+  {
+   "key": "june",
+   "file": "June.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "k",
+   "file": "K.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "kazakhstan",
+   "file": "Kazakhstan.json",
+   "frames": 224,
+   "active_first": 21,
+   "active_last": 68
+  },
+  {
+   "key": "kenya",
+   "file": "Kenya.json",
+   "frames": 235,
+   "active_first": 28,
+   "active_last": 80
+  },
+  {
+   "key": "kiribati",
+   "file": "Kiribati.json",
+   "frames": 256,
+   "active_first": 32,
+   "active_last": 94
+  },
+  {
+   "key": "know",
+   "file": "Know.json",
+   "frames": 219,
+   "active_first": 8,
+   "active_last": 61
+  },
+  {
+   "key": "kosovo",
+   "file": "Kosovo.json",
+   "frames": 244,
+   "active_first": 16,
+   "active_last": 79
+  },
+  {
+   "key": "kuwait",
+   "file": "Kuwait.json",
+   "frames": 220,
+   "active_first": 8,
+   "active_last": 68
+  },
+  {
+   "key": "kyrgyzstan",
+   "file": "Kyrgyzstan.json",
+   "frames": 217,
+   "active_first": 2,
+   "active_last": 63
+  },
+  {
+   "key": "l",
+   "file": "L.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 23
+  },
+  {
+   "key": "laos",
+   "file": "Laos.json",
+   "frames": 214,
+   "active_first": 3,
+   "active_last": 55
+  },
+  {
+   "key": "last",
+   "file": "Last.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "late",
+   "file": "Late.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "latvia",
+   "file": "Latvia.json",
+   "frames": 205,
+   "active_first": 1,
+   "active_last": 53
+  },
+  {
+   "key": "leave",
+   "file": "Leave.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 59
+  },
+  {
+   "key": "lebanon",
+   "file": "Lebanon.json",
+   "frames": 214,
+   "active_first": 3,
+   "active_last": 59
+  },
+  {
+   "key": "lecture",
+   "file": "Lecture.json",
+   "frames": 207,
+   "active_first": 8,
+   "active_last": 55
+  },
+  {
+   "key": "leg",
+   "file": "Leg.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "lesotho",
+   "file": "Lesotho.json",
+   "frames": 220,
+   "active_first": 4,
+   "active_last": 63
+  },
+  {
+   "key": "liberia",
+   "file": "Liberia.json",
+   "frames": 209,
+   "active_first": 1,
+   "active_last": 57
+  },
+  {
+   "key": "libya",
+   "file": "Libya.json",
+   "frames": 217,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "liechtenstein",
+   "file": "Liechtenstein.json",
+   "frames": 214,
+   "active_first": 4,
+   "active_last": 62
+  },
+  {
+   "key": "linguistic",
+   "file": "Linguistic.json",
+   "frames": 253,
+   "active_first": 3,
+   "active_last": 84
+  },
+  {
+   "key": "lithuania",
+   "file": "Lithuania.json",
+   "frames": 226,
+   "active_first": 8,
+   "active_last": 65
+  },
+  {
+   "key": "live",
+   "file": "Live.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "liver",
+   "file": "Liver.json",
+   "frames": 201,
+   "active_first": 0,
+   "active_last": 74
+  },
+  {
+   "key": "lunch",
+   "file": "Lunch.json",
+   "frames": 196,
+   "active_first": 0,
+   "active_last": 69
+  },
+  {
+   "key": "lungs",
+   "file": "Lungs.json",
+   "frames": 215,
+   "active_first": 0,
+   "active_last": 88
+  },
+  {
+   "key": "luxembourg",
+   "file": "Luxembourg.json",
+   "frames": 217,
+   "active_first": 4,
+   "active_last": 62
+  },
+  {
+   "key": "m",
+   "file": "M.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "macau",
+   "file": "Macau.json",
+   "frames": 241,
+   "active_first": null,
+   "active_last": null
+  },
+  {
+   "key": "madagascar",
+   "file": "Madagascar.json",
+   "frames": 208,
+   "active_first": 0,
+   "active_last": 56
+  },
+  {
+   "key": "malawi",
+   "file": "Malawi.json",
+   "frames": 217,
+   "active_first": 7,
+   "active_last": 63
+  },
+  {
+   "key": "malaysia",
+   "file": "Malaysia.json",
+   "frames": 223,
+   "active_first": 6,
+   "active_last": 70
+  },
+  {
+   "key": "maldives",
+   "file": "Maldives.json",
+   "frames": 217,
+   "active_first": 3,
+   "active_last": 59
+  },
+  {
+   "key": "mali",
+   "file": "Mali.json",
+   "frames": 235,
+   "active_first": 26,
+   "active_last": 81
+  },
+  {
+   "key": "malta",
+   "file": "Malta.json",
+   "frames": 217,
+   "active_first": 5,
+   "active_last": 64
+  },
+  {
+   "key": "management commitee",
+   "file": "Management Commitee.json",
+   "frames": 198,
+   "active_first": 7,
+   "active_last": 42
+  },
+  {
+   "key": "march",
+   "file": "March.json",
+   "frames": 183,
+   "active_first": 0,
+   "active_last": 32
+  },
+  {
+   "key": "marry",
+   "file": "Marry.json",
+   "frames": 170,
+   "active_first": 0,
+   "active_last": 43
+  },
+  {
+   "key": "marshall islands",
+   "file": "Marshall Islands.json",
+   "frames": 220,
+   "active_first": 4,
+   "active_last": 68
+  },
+  {
+   "key": "mauritania",
+   "file": "Mauritania.json",
+   "frames": 214,
+   "active_first": 6,
+   "active_last": 59
+  },
+  {
+   "key": "mauritius",
+   "file": "Mauritius.json",
+   "frames": 217,
+   "active_first": 4,
+   "active_last": 65
+  },
+  {
+   "key": "may",
+   "file": "May.json",
+   "frames": 180,
+   "active_first": 1,
+   "active_last": 29
+  },
+  {
+   "key": "maybe",
+   "file": "Maybe.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "meal",
+   "file": "Meal.json",
+   "frames": 271,
+   "active_first": 7,
+   "active_last": 112
+  },
+  {
+   "key": "meat",
+   "file": "Meat.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "medicine",
+   "file": "Medicine.json",
+   "frames": 209,
+   "active_first": 0,
+   "active_last": 82
+  },
+  {
+   "key": "meet",
+   "file": "Meet.json",
+   "frames": 197,
+   "active_first": 0,
+   "active_last": 70
+  },
+  {
+   "key": "meeting",
+   "file": "Meeting.json",
+   "frames": 235,
+   "active_first": 23,
+   "active_last": 73
+  },
+  {
+   "key": "member",
+   "file": "Member.json",
+   "frames": 225,
+   "active_first": 2,
+   "active_last": 53
+  },
+  {
+   "key": "membership",
+   "file": "Membership.json",
+   "frames": 207,
+   "active_first": 6,
+   "active_last": 43
+  },
+  {
+   "key": "menu",
+   "file": "Menu.json",
+   "frames": 217,
+   "active_first": 0,
+   "active_last": 90
+  },
+  {
+   "key": "message",
+   "file": "Message.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 59
+  },
+  {
+   "key": "micronesia",
+   "file": "Micronesia.json",
+   "frames": 241,
+   "active_first": 23,
+   "active_last": 84
+  },
+  {
+   "key": "miss",
+   "file": "Miss.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "mistake",
+   "file": "Mistake.json",
+   "frames": 259,
+   "active_first": 35,
+   "active_last": 105
+  },
+  {
+   "key": "moderator",
+   "file": "Moderator.json",
+   "frames": 292,
+   "active_first": 4,
+   "active_last": 130
+  },
+  {
+   "key": "moldova",
+   "file": "Moldova.json",
+   "frames": 223,
+   "active_first": 1,
+   "active_last": 67
+  },
+  {
+   "key": "monaco",
+   "file": "Monaco.json",
+   "frames": 214,
+   "active_first": 6,
+   "active_last": 55
+  },
+  {
+   "key": "monday",
+   "file": "Monday.json",
+   "frames": 184,
+   "active_first": 3,
+   "active_last": 33
+  },
+  {
+   "key": "mongolia",
+   "file": "Mongolia.json",
+   "frames": 226,
+   "active_first": 4,
+   "active_last": 68
+  },
+  {
+   "key": "montenegro",
+   "file": "Montenegro.json",
+   "frames": 220,
+   "active_first": 2,
+   "active_last": 67
+  },
+  {
+   "key": "month",
+   "file": "Month.json",
+   "frames": 210,
+   "active_first": 13,
+   "active_last": 57
+  },
+  {
+   "key": "morocco",
+   "file": "Morocco.json",
+   "frames": 229,
+   "active_first": 1,
+   "active_last": 74
+  },
+  {
+   "key": "mozambique",
+   "file": "Mozambique.json",
+   "frames": 226,
+   "active_first": 4,
+   "active_last": 69
+  },
+  {
+   "key": "my",
+   "file": "My.json",
+   "frames": 149,
+   "active_first": 0,
+   "active_last": 22
+  },
+  {
+   "key": "n",
+   "file": "N.json",
+   "frames": 175,
+   "active_first": 0,
+   "active_last": 24
+  },
+  {
+   "key": "namibia",
+   "file": "Namibia.json",
+   "frames": 232,
+   "active_first": 16,
+   "active_last": 79
+  },
+  {
+   "key": "need",
+   "file": "Need.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "nepal",
+   "file": "Nepal.json",
+   "frames": 229,
+   "active_first": 2,
+   "active_last": 75
+  },
+  {
+   "key": "netherlands",
+   "file": "Netherlands.json",
+   "frames": 223,
+   "active_first": 5,
+   "active_last": 70
+  },
+  {
+   "key": "new zealand",
+   "file": "New zealand.json",
+   "frames": 226,
+   "active_first": 3,
+   "active_last": 74
+  },
+  {
+   "key": "next",
+   "file": "Next.json",
+   "frames": 183,
+   "active_first": 0,
+   "active_last": 56
+  },
+  {
+   "key": "nicaragua",
+   "file": "Nicaragua.json",
+   "frames": 251,
+   "active_first": 1,
+   "active_last": 99
+  },
+  {
+   "key": "nice to meet you",
+   "file": "Nice to meet you.json",
+   "frames": 227,
+   "active_first": 0,
+   "active_last": 100
+  },
+  {
+   "key": "nice",
+   "file": "Nice.json",
+   "frames": 190,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "niger",
+   "file": "Niger.json",
+   "frames": 221,
+   "active_first": 3,
+   "active_last": 69
+  },
+  {
+   "key": "nigeria",
+   "file": "Nigeria.json",
+   "frames": 253,
+   "active_first": 2,
+   "active_last": 98
+  },
+  {
+   "key": "night",
+   "file": "Night.json",
+   "frames": 208,
+   "active_first": 17,
+   "active_last": 56
+  },
+  {
+   "key": "no",
+   "file": "No.json",
+   "frames": 222,
+   "active_first": 20,
+   "active_last": 62
+  },
+  {
+   "key": "north korea",
+   "file": "North Korea.json",
+   "frames": 244,
+   "active_first": 18,
+   "active_last": 85
+  },
+  {
+   "key": "north macedonia",
+   "file": "North Macedonia.json",
+   "frames": 220,
+   "active_first": 1,
+   "active_last": 65
+  },
+  {
+   "key": "norway",
+   "file": "Norway.json",
+   "frames": 247,
+   "active_first": 21,
+   "active_last": 93
+  },
+  {
+   "key": "not fine",
+   "file": "Not fine.json",
+   "frames": 195,
+   "active_first": 0,
+   "active_last": 68
+  },
+  {
+   "key": "nothing",
+   "file": "Nothing.json",
+   "frames": 228,
+   "active_first": 8,
+   "active_last": 54
+  },
+  {
+   "key": "november",
+   "file": "November.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 41
+  },
+  {
+   "key": "o",
+   "file": "O.json",
+   "frames": 180,
+   "active_first": 0,
+   "active_last": 29
+  },
+  {
+   "key": "observer",
+   "file": "Observer.json",
+   "frames": 186,
+   "active_first": 9,
+   "active_last": 35
+  },
+  {
+   "key": "obstacle",
+   "file": "Obstacle.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "october",
+   "file": "October.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 38
+  },
+  {
+   "key": "office",
+   "file": "Office.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "ok",
+   "file": "Ok.json",
+   "frames": 226,
+   "active_first": 0,
+   "active_last": 99
+  },
+  {
+   "key": "old man",
+   "file": "Old man.json",
+   "frames": 185,
+   "active_first": 0,
+   "active_last": 58
+  },
+  {
+   "key": "old woman",
+   "file": "Old woman.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "oman",
+   "file": "Oman.json",
+   "frames": 229,
+   "active_first": 7,
+   "active_last": 74
+  },
+  {
+   "key": "open",
+   "file": "Open.json",
+   "frames": 213,
+   "active_first": 6,
+   "active_last": 55
+  },
+  {
+   "key": "opening ceremony",
+   "file": "Opening Ceremony.json",
+   "frames": 286,
+   "active_first": 4,
+   "active_last": 135
+  },
+  {
+   "key": "operation",
+   "file": "Operation.json",
+   "frames": 201,
+   "active_first": 0,
+   "active_last": 74
+  },
+  {
+   "key": "organise",
+   "file": "Organise.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "organising committee ",
+   "file": "Organising Committee .json",
+   "frames": 301,
+   "active_first": 9,
+   "active_last": 147
+  },
+  {
+   "key": "p",
+   "file": "P.json",
+   "frames": 162,
+   "active_first": 0,
+   "active_last": 11
+  },
+  {
+   "key": "pakistan",
+   "file": "Pakistan.json",
+   "frames": 236,
+   "active_first": 2,
+   "active_last": 73
+  },
+  {
+   "key": "palestine",
+   "file": "Palestine.json",
+   "frames": 217,
+   "active_first": 0,
+   "active_last": 61
+  },
+  {
+   "key": "panama",
+   "file": "Panama.json",
+   "frames": 205,
+   "active_first": 0,
+   "active_last": 53
+  },
+  {
+   "key": "paper",
+   "file": "Paper.json",
+   "frames": 209,
+   "active_first": 0,
+   "active_last": 82
+  },
+  {
+   "key": "papua new guinea",
+   "file": "Papua New Guinea.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 51
+  },
+  {
+   "key": "paraguay",
+   "file": "Paraguay.json",
+   "frames": 250,
+   "active_first": 0,
+   "active_last": 98
+  },
+  {
+   "key": "participate",
+   "file": "Participate.json",
+   "frames": 213,
+   "active_first": 9,
+   "active_last": 49
+  },
+  {
+   "key": "partnerships",
+   "file": "Partnerships.json",
+   "frames": 196,
+   "active_first": 0,
+   "active_last": 69
+  },
+  {
+   "key": "past",
+   "file": "Past.json",
+   "frames": 235,
+   "active_first": 11,
+   "active_last": 61
+  },
+  {
+   "key": "pasta",
+   "file": "Pasta.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "pay",
+   "file": "Pay.json",
+   "frames": 169,
+   "active_first": 0,
+   "active_last": 42
+  },
+  {
+   "key": "payment",
+   "file": "Payment.json",
+   "frames": 259,
+   "active_first": 3,
+   "active_last": 108
+  },
+  {
+   "key": "pen",
+   "file": "Pen.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "peru",
+   "file": "Peru.json",
+   "frames": 217,
+   "active_first": 3,
+   "active_last": 65
+  },
+  {
+   "key": "philippines",
+   "file": "Philippines.json",
+   "frames": 218,
+   "active_first": 0,
+   "active_last": 64
+  },
+  {
+   "key": "pills",
+   "file": "Pills.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "plan",
+   "file": "Plan.json",
+   "frames": 220,
+   "active_first": 12,
+   "active_last": 59
+  },
+  {
+   "key": "poland",
+   "file": "Poland.json",
+   "frames": 217,
+   "active_first": 6,
+   "active_last": 64
+  },
+  {
+   "key": "politic",
+   "file": "Politic.json",
+   "frames": 252,
+   "active_first": 3,
+   "active_last": 94
+  },
+  {
+   "key": "portugal",
+   "file": "Portugal.json",
+   "frames": 214,
+   "active_first": 6,
+   "active_last": 60
+  },
+  {
+   "key": "postpone",
+   "file": "Postpone.json",
+   "frames": 181,
+   "active_first": 0,
+   "active_last": 54
+  },
+  {
+   "key": "practice",
+   "file": "Practice.json",
+   "frames": 229,
+   "active_first": 4,
+   "active_last": 62
+  },
+  {
+   "key": "pregnant",
+   "file": "Pregnant.json",
+   "frames": 207,
+   "active_first": 0,
+   "active_last": 80
+  },
+  {
+   "key": "present",
+   "file": "Present.json",
+   "frames": 204,
+   "active_first": 6,
+   "active_last": 45
+  },
+  {
+   "key": "presentation",
+   "file": "Presentation.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 59
+  },
+  {
+   "key": "presenter",
+   "file": "Presenter.json",
+   "frames": 277,
+   "active_first": 4,
+   "active_last": 115
+  },
+  {
+   "key": "president",
+   "file": "President.json",
+   "frames": 223,
+   "active_first": 5,
+   "active_last": 48
+  },
+  {
+   "key": "pride",
+   "file": "Pride.json",
+   "frames": 201,
+   "active_first": 11,
+   "active_last": 48
+  },
+  {
+   "key": "process",
+   "file": "Process.json",
+   "frames": 223,
+   "active_first": 3,
+   "active_last": 69
+  },
+  {
+   "key": "programme",
+   "file": "Programme.json",
+   "frames": 270,
+   "active_first": 4,
+   "active_last": 117
+  },
+  {
+   "key": "project",
+   "file": "Project.json",
+   "frames": 247,
+   "active_first": 3,
+   "active_last": 96
+  },
+  {
+   "key": "pub",
+   "file": "Pub.json",
+   "frames": 206,
+   "active_first": 0,
+   "active_last": 79
+  },
+  {
+   "key": "publish",
+   "file": "Publish.json",
+   "frames": 181,
+   "active_first": 0,
+   "active_last": 54
+  },
+  {
+   "key": "puerto rico",
+   "file": "Puerto Rico.json",
+   "frames": 235,
+   "active_first": 10,
+   "active_last": 78
+  },
+  {
+   "key": "q",
+   "file": "Q.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "qatar",
+   "file": "Qatar.json",
+   "frames": 235,
+   "active_first": 20,
+   "active_last": 82
+  },
+  {
+   "key": "question",
+   "file": "Question.json",
+   "frames": 225,
+   "active_first": 6,
+   "active_last": 52
+  },
+  {
+   "key": "r",
+   "file": "R.json",
+   "frames": 162,
+   "active_first": 0,
+   "active_last": 11
+  },
+  {
+   "key": "rain",
+   "file": "Rain.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "read",
+   "file": "Read.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 50
+  },
+  {
+   "key": "receipt",
+   "file": "Receipt.json",
+   "frames": 256,
+   "active_first": 3,
+   "active_last": 103
+  },
+  {
+   "key": "receive",
+   "file": "Receive.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "region",
+   "file": "Region.json",
+   "frames": 198,
+   "active_first": 4,
+   "active_last": 34
+  },
+  {
+   "key": "regional",
+   "file": "Regional.json",
+   "frames": 198,
+   "active_first": 4,
+   "active_last": 34
+  },
+  {
+   "key": "registration",
+   "file": "Registration.json",
+   "frames": 246,
+   "active_first": 5,
+   "active_last": 85
+  },
+  {
+   "key": "reject",
+   "file": "Reject.json",
+   "frames": 261,
+   "active_first": 4,
+   "active_last": 102
+  },
+  {
+   "key": "remember",
+   "file": "Remember.json",
+   "frames": 234,
+   "active_first": 6,
+   "active_last": 82
+  },
+  {
+   "key": "reply",
+   "file": "Reply.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "represent",
+   "file": "Represent.json",
+   "frames": 211,
+   "active_first": 12,
+   "active_last": 53
+  },
+  {
+   "key": "representative",
+   "file": "Representative.json",
+   "frames": 211,
+   "active_first": 12,
+   "active_last": 53
+  },
+  {
+   "key": "reservation",
+   "file": "Reservation.json",
+   "frames": 212,
+   "active_first": 0,
+   "active_last": 85
+  },
+  {
+   "key": "respect",
+   "file": "Respect.json",
+   "frames": 247,
+   "active_first": 28,
+   "active_last": 85
+  },
+  {
+   "key": "rest",
+   "file": "Rest.json",
+   "frames": 217,
+   "active_first": 3,
+   "active_last": 55
+  },
+  {
+   "key": "restroom",
+   "file": "Restroom.json",
+   "frames": 232,
+   "active_first": 11,
+   "active_last": 74
+  },
+  {
+   "key": "right",
+   "file": "Right.json",
+   "frames": 229,
+   "active_first": 6,
+   "active_last": 58
+  },
+  {
+   "key": "romania",
+   "file": "Romania.json",
+   "frames": 218,
+   "active_first": 0,
+   "active_last": 66
+  },
+  {
+   "key": "run",
+   "file": "Run.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "russia",
+   "file": "Russia.json",
+   "frames": 214,
+   "active_first": 3,
+   "active_last": 61
+  },
+  {
+   "key": "rwanda",
+   "file": "Rwanda.json",
+   "frames": 226,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "s",
+   "file": "S.json",
+   "frames": 165,
+   "active_first": 0,
+   "active_last": 14
+  },
+  {
+   "key": "saint vincent and the grenadines",
+   "file": "Saint Vincent and the Grenadines.json",
+   "frames": 211,
+   "active_first": 4,
+   "active_last": 59
+  },
+  {
+   "key": "same",
+   "file": "Same.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 34
+  },
+  {
+   "key": "samoa",
+   "file": "Samoa.json",
+   "frames": 237,
+   "active_first": 22,
+   "active_last": 77
+  },
+  {
+   "key": "san marino",
+   "file": "San Marino.json",
+   "frames": 226,
+   "active_first": 17,
+   "active_last": 57
+  },
+  {
+   "key": "saturday",
+   "file": "Saturday.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "saudi arabia",
+   "file": "Saudi Arabia.json",
+   "frames": 226,
+   "active_first": 19,
+   "active_last": 66
+  },
+  {
+   "key": "say",
+   "file": "Say.json",
+   "frames": 176,
+   "active_first": 0,
+   "active_last": 49
+  },
+  {
+   "key": "scotland",
+   "file": "Scotland.json",
+   "frames": 235,
+   "active_first": 15,
+   "active_last": 65
+  },
+  {
+   "key": "secretariat",
+   "file": "Secretariat.json",
+   "frames": 201,
+   "active_first": 6,
+   "active_last": 50
+  },
+  {
+   "key": "secretary",
+   "file": "Secretary.json",
+   "frames": 198,
+   "active_first": 5,
+   "active_last": 47
+  },
+  {
+   "key": "security personnel",
+   "file": "Security Personnel.json",
+   "frames": 161,
+   "active_first": 0,
+   "active_last": 34
+  },
+  {
+   "key": "security",
+   "file": "Security.json",
+   "frames": 254,
+   "active_first": 0,
+   "active_last": 127
+  },
+  {
+   "key": "select",
+   "file": "Select.json",
+   "frames": 219,
+   "active_first": 0,
+   "active_last": 68
+  },
+  {
+   "key": "send",
+   "file": "Send.json",
+   "frames": 176,
+   "active_first": 0,
+   "active_last": 49
+  },
+  {
+   "key": "senegal",
+   "file": "Senegal.json",
+   "frames": 226,
+   "active_first": 18,
+   "active_last": 70
+  },
+  {
+   "key": "september",
+   "file": "September.json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 23
+  },
+  {
+   "key": "serbia",
+   "file": "Serbia.json",
+   "frames": 220,
+   "active_first": 4,
+   "active_last": 62
+  },
+  {
+   "key": "seychelles",
+   "file": "Seychelles.json",
+   "frames": 229,
+   "active_first": 10,
+   "active_last": 77
+  },
+  {
+   "key": "she",
+   "file": "She.json",
+   "frames": 185,
+   "active_first": 0,
+   "active_last": 58
+  },
+  {
+   "key": "shut",
+   "file": "Shut.json",
+   "frames": 228,
+   "active_first": 0,
+   "active_last": 48
+  },
+  {
+   "key": "sick",
+   "file": "Sick.json",
+   "frames": 232,
+   "active_first": 12,
+   "active_last": 69
+  },
+  {
+   "key": "sierra leone",
+   "file": "Sierra Leone.json",
+   "frames": 232,
+   "active_first": 14,
+   "active_last": 71
+  },
+  {
+   "key": "sign language",
+   "file": "Sign Language.json",
+   "frames": 225,
+   "active_first": 16,
+   "active_last": 70
+  },
+  {
+   "key": "sign name",
+   "file": "Sign name.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 77
+  },
+  {
+   "key": "sign",
+   "file": "Sign.json",
+   "frames": 191,
+   "active_first": 0,
+   "active_last": 64
+  },
+  {
+   "key": "signature",
+   "file": "Signature.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "singapore",
+   "file": "Singapore.json",
+   "frames": 224,
+   "active_first": 7,
+   "active_last": 69
+  },
+  {
+   "key": "skin",
+   "file": "Skin.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "sky",
+   "file": "Sky.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "skype",
+   "file": "Skype.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 59
+  },
+  {
+   "key": "slovakia",
+   "file": "Slovakia.json",
+   "frames": 253,
+   "active_first": 41,
+   "active_last": 101
+  },
+  {
+   "key": "slovenia",
+   "file": "Slovenia.json",
+   "frames": 233,
+   "active_first": 10,
+   "active_last": 74
+  },
+  {
+   "key": "slow",
+   "file": "Slow.json",
+   "frames": 261,
+   "active_first": 13,
+   "active_last": 104
+  },
+  {
+   "key": "slowly",
+   "file": "Slowly.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "so so",
+   "file": "So so.json",
+   "frames": 191,
+   "active_first": 0,
+   "active_last": 64
+  },
+  {
+   "key": "solomon islands",
+   "file": "Solomon Islands.json",
+   "frames": 239,
+   "active_first": 13,
+   "active_last": 83
+  },
+  {
+   "key": "solve a problem",
+   "file": "Solve a problem.json",
+   "frames": 199,
+   "active_first": 0,
+   "active_last": 72
+  },
+  {
+   "key": "somalia",
+   "file": "Somalia.json",
+   "frames": 226,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "son",
+   "file": "Son.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "sorry",
+   "file": "Sorry.json",
+   "frames": 231,
+   "active_first": 8,
+   "active_last": 64
+  },
+  {
+   "key": "soup",
+   "file": "Soup.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "south africa",
+   "file": "South Africa.json",
+   "frames": 230,
+   "active_first": 1,
+   "active_last": 69
+  },
+  {
+   "key": "south korea",
+   "file": "South Korea.json",
+   "frames": 238,
+   "active_first": 13,
+   "active_last": 80
+  },
+  {
+   "key": "south sudan",
+   "file": "South Sudan.json",
+   "frames": 232,
+   "active_first": 14,
+   "active_last": 74
+  },
+  {
+   "key": "souvenir",
+   "file": "Souvenir.json",
+   "frames": 276,
+   "active_first": 2,
+   "active_last": 107
+  },
+  {
+   "key": "spain",
+   "file": "Spain.json",
+   "frames": 217,
+   "active_first": 15,
+   "active_last": 56
+  },
+  {
+   "key": "speak",
+   "file": "Speak.json",
+   "frames": 201,
+   "active_first": 0,
+   "active_last": 74
+  },
+  {
+   "key": "speaker",
+   "file": "Speaker.json",
+   "frames": 277,
+   "active_first": 4,
+   "active_last": 115
+  },
+  {
+   "key": "sports",
+   "file": "Sports.json",
+   "frames": 213,
+   "active_first": 11,
+   "active_last": 56
+  },
+  {
+   "key": "sri lanka",
+   "file": "Sri Lanka.json",
+   "frames": 232,
+   "active_first": 26,
+   "active_last": 77
+  },
+  {
+   "key": "stairs",
+   "file": "Stairs.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "start",
+   "file": "Start.json",
+   "frames": 217,
+   "active_first": 8,
+   "active_last": 52
+  },
+  {
+   "key": "stomach",
+   "file": "Stomach.json",
+   "frames": 180,
+   "active_first": 0,
+   "active_last": 53
+  },
+  {
+   "key": "storm",
+   "file": "Storm.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "street",
+   "file": "Street.json",
+   "frames": 185,
+   "active_first": 0,
+   "active_last": 58
+  },
+  {
+   "key": "study",
+   "file": "Study.json",
+   "frames": 243,
+   "active_first": 10,
+   "active_last": 74
+  },
+  {
+   "key": "sudan",
+   "file": "Sudan.json",
+   "frames": 220,
+   "active_first": 5,
+   "active_last": 63
+  },
+  {
+   "key": "sugar",
+   "file": "Sugar.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "sun",
+   "file": "Sun.json",
+   "frames": 195,
+   "active_first": 0,
+   "active_last": 68
+  },
+  {
+   "key": "sunday",
+   "file": "Sunday.json",
+   "frames": 181,
+   "active_first": 0,
+   "active_last": 30
+  },
+  {
+   "key": "supervisor",
+   "file": "Supervisor.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "support",
+   "file": "Support.json",
+   "frames": 271,
+   "active_first": 26,
+   "active_last": 116
+  },
+  {
+   "key": "sure",
+   "file": "Sure.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "suriname",
+   "file": "Suriname.json",
+   "frames": 238,
+   "active_first": 18,
+   "active_last": 83
+  },
+  {
+   "key": "surname",
+   "file": "Surname.json",
+   "frames": 209,
+   "active_first": 0,
+   "active_last": 82
+  },
+  {
+   "key": "sweden",
+   "file": "Sweden.json",
+   "frames": 212,
+   "active_first": 3,
+   "active_last": 56
+  },
+  {
+   "key": "switzerland",
+   "file": "Switzerland.json",
+   "frames": 253,
+   "active_first": 36,
+   "active_last": 100
+  },
+  {
+   "key": "syria",
+   "file": "Syria.json",
+   "frames": 229,
+   "active_first": 15,
+   "active_last": 74
+  },
+  {
+   "key": "t",
+   "file": "T.json",
+   "frames": 175,
+   "active_first": 0,
+   "active_last": 24
+  },
+  {
+   "key": "table",
+   "file": "Table.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "taiwan",
+   "file": "Taiwan.json",
+   "frames": 253,
+   "active_first": 33,
+   "active_last": 92
+  },
+  {
+   "key": "tajikistan",
+   "file": "Tajikistan.json",
+   "frames": 250,
+   "active_first": 34,
+   "active_last": 83
+  },
+  {
+   "key": "take a bus",
+   "file": "Take a bus.json",
+   "frames": 206,
+   "active_first": 0,
+   "active_last": 79
+  },
+  {
+   "key": "take an airplane",
+   "file": "Take an airplane.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 77
+  },
+  {
+   "key": "take train",
+   "file": "Take train.json",
+   "frames": 196,
+   "active_first": 0,
+   "active_last": 69
+  },
+  {
+   "key": "talk",
+   "file": "Talk.json",
+   "frames": 204,
+   "active_first": 5,
+   "active_last": 52
+  },
+  {
+   "key": "tanzania",
+   "file": "Tanzania.json",
+   "frames": 217,
+   "active_first": 13,
+   "active_last": 61
+  },
+  {
+   "key": "taxi",
+   "file": "Taxi.json",
+   "frames": 289,
+   "active_first": 51,
+   "active_last": 132
+  },
+  {
+   "key": "tea",
+   "file": "Tea.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "telephone",
+   "file": "Telephone.json",
+   "frames": 206,
+   "active_first": 0,
+   "active_last": 79
+  },
+  {
+   "key": "text",
+   "file": "Text.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 77
+  },
+  {
+   "key": "thailand",
+   "file": "Thailand.json",
+   "frames": 235,
+   "active_first": 29,
+   "active_last": 78
+  },
+  {
+   "key": "thank you",
+   "file": "Thank You.json",
+   "frames": 210,
+   "active_first": 13,
+   "active_last": 48
+  },
+  {
+   "key": "theme",
+   "file": "Theme.json",
+   "frames": 232,
+   "active_first": 3,
+   "active_last": 76
+  },
+  {
+   "key": "thirsty",
+   "file": "Thirsty.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "thursday",
+   "file": "Thursday.json",
+   "frames": 162,
+   "active_first": 0,
+   "active_last": 11
+  },
+  {
+   "key": "ticket",
+   "file": "Ticket.json",
+   "frames": 256,
+   "active_first": 1,
+   "active_last": 104
+  },
+  {
+   "key": "timor-leste",
+   "file": "Timor-leste.json",
+   "frames": 217,
+   "active_first": 3,
+   "active_last": 64
+  },
+  {
+   "key": "tired",
+   "file": "Tired.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "to rest",
+   "file": "To rest.json",
+   "frames": 209,
+   "active_first": 0,
+   "active_last": 82
+  },
+  {
+   "key": "today",
+   "file": "Today.json",
+   "frames": 204,
+   "active_first": 6,
+   "active_last": 45
+  },
+  {
+   "key": "togo",
+   "file": "Togo.json",
+   "frames": 250,
+   "active_first": 36,
+   "active_last": 92
+  },
+  {
+   "key": "toilet",
+   "file": "Toilet.json",
+   "frames": 232,
+   "active_first": 11,
+   "active_last": 74
+  },
+  {
+   "key": "topic",
+   "file": "Topic.json",
+   "frames": 232,
+   "active_first": 3,
+   "active_last": 76
+  },
+  {
+   "key": "traffic",
+   "file": "Traffic.json",
+   "frames": 194,
+   "active_first": 0,
+   "active_last": 67
+  },
+  {
+   "key": "train",
+   "file": "Train.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "training",
+   "file": "Training.json",
+   "frames": 247,
+   "active_first": 6,
+   "active_last": 96
+  },
+  {
+   "key": "transport",
+   "file": "Transport.json",
+   "frames": 182,
+   "active_first": 3,
+   "active_last": 55
+  },
+  {
+   "key": "travel",
+   "file": "Travel.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "tree",
+   "file": "Tree.json",
+   "frames": 191,
+   "active_first": 0,
+   "active_last": 64
+  },
+  {
+   "key": "tuesday",
+   "file": "Tuesday.json",
+   "frames": 162,
+   "active_first": 0,
+   "active_last": 11
+  },
+  {
+   "key": "tunisia",
+   "file": "Tunisia.json",
+   "frames": 223,
+   "active_first": 8,
+   "active_last": 68
+  },
+  {
+   "key": "turkey",
+   "file": "Turkey.json",
+   "frames": 220,
+   "active_first": 2,
+   "active_last": 60
+  },
+  {
+   "key": "turkmenistan",
+   "file": "Turkmenistan.json",
+   "frames": 229,
+   "active_first": 13,
+   "active_last": 69
+  },
+  {
+   "key": "twitter",
+   "file": "Twitter.json",
+   "frames": 166,
+   "active_first": 0,
+   "active_last": 39
+  },
+  {
+   "key": "u",
+   "file": "U.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "un",
+   "file": "UN.json",
+   "frames": 189,
+   "active_first": 1,
+   "active_last": 62
+  },
+  {
+   "key": "uganda",
+   "file": "Uganda.json",
+   "frames": 217,
+   "active_first": 2,
+   "active_last": 64
+  },
+  {
+   "key": "ukraine",
+   "file": "Ukraine.json",
+   "frames": 208,
+   "active_first": 1,
+   "active_last": 52
+  },
+  {
+   "key": "united arab emirates",
+   "file": "United Arab Emirates.json",
+   "frames": 232,
+   "active_first": 15,
+   "active_last": 73
+  },
+  {
+   "key": "united kingdom",
+   "file": "United Kingdom.json",
+   "frames": 226,
+   "active_first": 7,
+   "active_last": 69
+  },
+  {
+   "key": "united states of america",
+   "file": "United States of America.json",
+   "frames": 238,
+   "active_first": 13,
+   "active_last": 79
+  },
+  {
+   "key": "urgent",
+   "file": "Urgent.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "uruguay",
+   "file": "Uruguay.json",
+   "frames": 220,
+   "active_first": 5,
+   "active_last": 68
+  },
+  {
+   "key": "uzbekistan",
+   "file": "Uzbekistan.json",
+   "frames": 226,
+   "active_first": 15,
+   "active_last": 68
+  },
+  {
+   "key": "v",
+   "file": "V.json",
+   "frames": 168,
+   "active_first": 0,
+   "active_last": 17
+  },
+  {
+   "key": "vacation",
+   "file": "Vacation.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "vegetables",
+   "file": "Vegetables.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "vegetarian menu",
+   "file": "Vegetarian Menu.json",
+   "frames": 224,
+   "active_first": 0,
+   "active_last": 97
+  },
+  {
+   "key": "venezuela",
+   "file": "Venezuela.json",
+   "frames": 211,
+   "active_first": 5,
+   "active_last": 57
+  },
+  {
+   "key": "venue",
+   "file": "Venue.json",
+   "frames": 216,
+   "active_first": 0,
+   "active_last": 54
+  },
+  {
+   "key": "very important",
+   "file": "Very Important.json",
+   "frames": 214,
+   "active_first": 0,
+   "active_last": 87
+  },
+  {
+   "key": "very good",
+   "file": "Very good.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "vice president",
+   "file": "Vice president.json",
+   "frames": 244,
+   "active_first": 6,
+   "active_last": 75
+  },
+  {
+   "key": "vietnam",
+   "file": "Vietnam.json",
+   "frames": 199,
+   "active_first": 11,
+   "active_last": 33
+  },
+  {
+   "key": "visitor",
+   "file": "Visitor.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "volunteer",
+   "file": "Volunteer.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "w",
+   "file": "W.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "wc",
+   "file": "WC.json",
+   "frames": 232,
+   "active_first": 11,
+   "active_last": 74
+  },
+  {
+   "key": "wait",
+   "file": "Wait.json",
+   "frames": 216,
+   "active_first": 8,
+   "active_last": 49
+  },
+  {
+   "key": "waitress",
+   "file": "Waitress.json",
+   "frames": 182,
+   "active_first": 0,
+   "active_last": 55
+  },
+  {
+   "key": "wales",
+   "file": "Wales.json",
+   "frames": 211,
+   "active_first": 2,
+   "active_last": 58
+  },
+  {
+   "key": "walk",
+   "file": "Walk.json",
+   "frames": 179,
+   "active_first": 0,
+   "active_last": 52
+  },
+  {
+   "key": "want",
+   "file": "Want.json",
+   "frames": 213,
+   "active_first": 8,
+   "active_last": 41
+  },
+  {
+   "key": "weather",
+   "file": "Weather.json",
+   "frames": 202,
+   "active_first": 0,
+   "active_last": 75
+  },
+  {
+   "key": "wednesday",
+   "file": "Wednesday.json",
+   "frames": 171,
+   "active_first": 0,
+   "active_last": 20
+  },
+  {
+   "key": "week (2)",
+   "file": "Week (2).json",
+   "frames": 174,
+   "active_first": 0,
+   "active_last": 47
+  },
+  {
+   "key": "week",
+   "file": "Week.json",
+   "frames": 210,
+   "active_first": 3,
+   "active_last": 43
+  },
+  {
+   "key": "weekend",
+   "file": "Weekend.json",
+   "frames": 176,
+   "active_first": 0,
+   "active_last": 49
+  },
+  {
+   "key": "what",
+   "file": "What.json",
+   "frames": 219,
+   "active_first": 15,
+   "active_last": 54
+  },
+  {
+   "key": "whatsapp",
+   "file": "Whatsapp.json",
+   "frames": 239,
+   "active_first": 0,
+   "active_last": 112
+  },
+  {
+   "key": "when",
+   "file": "When.json",
+   "frames": 240,
+   "active_first": 10,
+   "active_last": 69
+  },
+  {
+   "key": "where",
+   "file": "Where.json",
+   "frames": 241,
+   "active_first": 11,
+   "active_last": 68
+  },
+  {
+   "key": "which",
+   "file": "Which.json",
+   "frames": 226,
+   "active_first": 22,
+   "active_last": 75
+  },
+  {
+   "key": "who",
+   "file": "Who.json",
+   "frames": 187,
+   "active_first": 0,
+   "active_last": 60
+  },
+  {
+   "key": "why",
+   "file": "Why.json",
+   "frames": 222,
+   "active_first": 18,
+   "active_last": 63
+  },
+  {
+   "key": "wifi",
+   "file": "Wifi.json",
+   "frames": 224,
+   "active_first": 0,
+   "active_last": 97
+  },
+  {
+   "key": "window",
+   "file": "Window.json",
+   "frames": 207,
+   "active_first": 0,
+   "active_last": 80
+  },
+  {
+   "key": "wine",
+   "file": "Wine.json",
+   "frames": 192,
+   "active_first": 0,
+   "active_last": 65
+  },
+  {
+   "key": "word",
+   "file": "Word.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 59
+  },
+  {
+   "key": "worried",
+   "file": "Worried.json",
+   "frames": 229,
+   "active_first": 0,
+   "active_last": 102
+  },
+  {
+   "key": "wow",
+   "file": "Wow.json",
+   "frames": 189,
+   "active_first": 0,
+   "active_last": 62
+  },
+  {
+   "key": "wrong",
+   "file": "Wrong.json",
+   "frames": 177,
+   "active_first": 0,
+   "active_last": 49
+  },
+  {
+   "key": "x",
+   "file": "X.json",
+   "frames": 162,
+   "active_first": 0,
+   "active_last": 11
+  },
+  {
+   "key": "y",
+   "file": "Y.json",
+   "frames": 162,
+   "active_first": 0,
+   "active_last": 11
+  },
+  {
+   "key": "year",
+   "file": "Year.json",
+   "frames": 220,
+   "active_first": 16,
+   "active_last": 67
+  },
+  {
+   "key": "yemen",
+   "file": "Yemen.json",
+   "frames": 229,
+   "active_first": 21,
+   "active_last": 72
+  },
+  {
+   "key": "yes",
+   "file": "Yes.json",
+   "frames": 213,
+   "active_first": 5,
+   "active_last": 50
+  },
+  {
+   "key": "yet",
+   "file": "Yet.json",
+   "frames": 184,
+   "active_first": 0,
+   "active_last": 57
+  },
+  {
+   "key": "you (plural)",
+   "file": "You (plural).json",
+   "frames": 165,
+   "active_first": 0,
+   "active_last": 38
+  },
+  {
+   "key": "you",
+   "file": "You.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 59
+  },
+  {
+   "key": "young",
+   "file": "Young.json",
+   "frames": 243,
+   "active_first": 6,
+   "active_last": 83
+  },
+  {
+   "key": "youth",
+   "file": "Youth.json",
+   "frames": 226,
+   "active_first": 14,
+   "active_last": 58
+  },
+  {
+   "key": "z",
+   "file": "Z.json",
+   "frames": 186,
+   "active_first": 0,
+   "active_last": 34
+  },
+  {
+   "key": "zambia",
+   "file": "Zambia.json",
+   "frames": 232,
+   "active_first": 19,
+   "active_last": 72
+  },
+  {
+   "key": "zimbabwe",
+   "file": "Zimbabwe.json",
+   "frames": 226,
+   "active_first": 11,
+   "active_last": 71
+  },
+  {
+   "key": "accept",
+   "file": "accept.json",
+   "frames": 61,
+   "active_first": 17,
+   "active_last": 44
+  },
+  {
+   "key": "acknowledge",
+   "file": "acknowledge.json",
+   "frames": 209,
+   "active_first": 0,
+   "active_last": 82
+  },
+  {
+   "key": "age",
+   "file": "age.json",
+   "frames": 74,
+   "active_first": 27,
+   "active_last": 65
+  },
+  {
+   "key": "airport",
+   "file": "airport.json",
+   "frames": 60,
+   "active_first": 9,
+   "active_last": 44
+  },
+  {
+   "key": "angry",
+   "file": "angry.json",
+   "frames": 78,
+   "active_first": 35,
+   "active_last": 64
+  },
+  {
+   "key": "announce",
+   "file": "announce.json",
+   "frames": 67,
+   "active_first": 19,
+   "active_last": 56
+  },
+  {
+   "key": "bad",
+   "file": "bad.json",
+   "frames": 54,
+   "active_first": 11,
+   "active_last": 41
+  },
+  {
+   "key": "boy",
+   "file": "boy.json",
+   "frames": 72,
+   "active_first": 17,
+   "active_last": 60
+  },
+  {
+   "key": "breakfast",
+   "file": "breakfast.json",
+   "frames": 96,
+   "active_first": 41,
+   "active_last": 84
+  },
+  {
+   "key": "brother",
+   "file": "brother.json",
+   "frames": 70,
+   "active_first": 22,
+   "active_last": 60
+  },
+  {
+   "key": "bus",
+   "file": "bus.json",
+   "frames": 73,
+   "active_first": 28,
+   "active_last": 59
+  },
+  {
+   "key": "but",
+   "file": "but.json",
+   "frames": 71,
+   "active_first": 28,
+   "active_last": 58
+  },
+  {
+   "key": "can",
+   "file": "can.json",
+   "frames": 57,
+   "active_first": 14,
+   "active_last": 28
+  },
+  {
+   "key": "car",
+   "file": "car.json",
+   "frames": 72,
+   "active_first": 25,
+   "active_last": 54
+  },
+  {
+   "key": "child",
+   "file": "child.json",
+   "frames": 67,
+   "active_first": 29,
+   "active_last": 55
+  },
+  {
+   "key": "children",
+   "file": "children.json",
+   "frames": 50,
+   "active_first": 6,
+   "active_last": 40
+  },
+  {
+   "key": "complicated",
+   "file": "complicated.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "congratulation",
+   "file": "congratulation.json",
+   "frames": 68,
+   "active_first": 14,
+   "active_last": 52
+  },
+  {
+   "key": "deaf",
+   "file": "deaf.json",
+   "frames": 62,
+   "active_first": 15,
+   "active_last": 54
+  },
+  {
+   "key": "delegate",
+   "file": "delegate.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "different-plu",
+   "file": "different-plu.json",
+   "frames": 78,
+   "active_first": 30,
+   "active_last": 62
+  },
+  {
+   "key": "different",
+   "file": "different.json",
+   "frames": 53,
+   "active_first": 16,
+   "active_last": 40
+  },
+  {
+   "key": "disabled",
+   "file": "disabled.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "discuss",
+   "file": "discuss.json",
+   "frames": 75,
+   "active_first": 23,
+   "active_last": 71
+  },
+  {
+   "key": "divorce",
+   "file": "divorce.json",
+   "frames": 71,
+   "active_first": 13,
+   "active_last": 64
+  },
+  {
+   "key": "duration",
+   "file": "duration.json",
+   "frames": 204,
+   "active_first": 0,
+   "active_last": 45
+  },
+  {
+   "key": "educate",
+   "file": "educate.json",
+   "frames": 73,
+   "active_first": 19,
+   "active_last": 63
+  },
+  {
+   "key": "education",
+   "file": "education.json",
+   "frames": 55,
+   "active_first": 10,
+   "active_last": 49
+  },
+  {
+   "key": "either",
+   "file": "either.json",
+   "frames": 77,
+   "active_first": 29,
+   "active_last": 67
+  },
+  {
+   "key": "encourage",
+   "file": "encourage.json",
+   "frames": 80,
+   "active_first": 27,
+   "active_last": 69
+  },
+  {
+   "key": "equal",
+   "file": "equal.json",
+   "frames": 262,
+   "active_first": 36,
+   "active_last": 103
+  },
+  {
+   "key": "estimate",
+   "file": "estimate.json",
+   "frames": 86,
+   "active_first": 28,
+   "active_last": 70
+  },
+  {
+   "key": "evening",
+   "file": "evening.json",
+   "frames": 58,
+   "active_first": 9,
+   "active_last": 51
+  },
+  {
+   "key": "everybody",
+   "file": "everybody.json",
+   "frames": 69,
+   "active_first": 12,
+   "active_last": 63
+  },
+  {
+   "key": "explain",
+   "file": "explain.json",
+   "frames": 92,
+   "active_first": 31,
+   "active_last": 80
+  },
+  {
+   "key": "family",
+   "file": "family.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "father",
+   "file": "father.json",
+   "frames": 58,
+   "active_first": 10,
+   "active_last": 42
+  },
+  {
+   "key": "federation",
+   "file": "federation.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "fly-plane",
+   "file": "fly-plane.json",
+   "frames": 55,
+   "active_first": 8,
+   "active_last": 39
+  },
+  {
+   "key": "follow",
+   "file": "follow.json",
+   "frames": 61,
+   "active_first": 12,
+   "active_last": 51
+  },
+  {
+   "key": "forget",
+   "file": "forget.json",
+   "frames": 69,
+   "active_first": 19,
+   "active_last": 56
+  },
+  {
+   "key": "frustrated",
+   "file": "frustrated.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "gene",
+   "file": "gene.json",
+   "frames": 82,
+   "active_first": 30,
+   "active_last": 70
+  },
+  {
+   "key": "generous",
+   "file": "generous.json",
+   "frames": 77,
+   "active_first": 19,
+   "active_last": 64
+  },
+  {
+   "key": "girl",
+   "file": "girl.json",
+   "frames": 60,
+   "active_first": 8,
+   "active_last": 49
+  },
+  {
+   "key": "government",
+   "file": "government.json",
+   "frames": 59,
+   "active_first": 20,
+   "active_last": 47
+  },
+  {
+   "key": "guide",
+   "file": "guide.json",
+   "frames": 69,
+   "active_first": 15,
+   "active_last": 55
+  },
+  {
+   "key": "how many",
+   "file": "how many.json",
+   "frames": 222,
+   "active_first": 8,
+   "active_last": 55
+  },
+  {
+   "key": "idea",
+   "file": "idea.json",
+   "frames": 70,
+   "active_first": 24,
+   "active_last": 55
+  },
+  {
+   "key": "ignorant",
+   "file": "ignorant.json",
+   "frames": 84,
+   "active_first": 21,
+   "active_last": 61
+  },
+  {
+   "key": "ill",
+   "file": "ill.json",
+   "frames": 217,
+   "active_first": 0,
+   "active_last": 90
+  },
+  {
+   "key": "impossible",
+   "file": "impossible.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "information",
+   "file": "information.json",
+   "frames": 78,
+   "active_first": 26,
+   "active_last": 66
+  },
+  {
+   "key": "intelligent",
+   "file": "intelligent.json",
+   "frames": 69,
+   "active_first": 28,
+   "active_last": 60
+  },
+  {
+   "key": "international-sign",
+   "file": "international-sign.json",
+   "frames": 83,
+   "active_first": 21,
+   "active_last": 71
+  },
+  {
+   "key": "interpret",
+   "file": "interpret.json",
+   "frames": 72,
+   "active_first": 23,
+   "active_last": 59
+  },
+  {
+   "key": "interview",
+   "file": "interview.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "iraq",
+   "file": "iraq.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "israel",
+   "file": "israel.json",
+   "frames": 39,
+   "active_first": 0,
+   "active_last": 16
+  },
+  {
+   "key": "italy",
+   "file": "italy.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "jordan",
+   "file": "jordan.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "korea",
+   "file": "korea.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "language",
+   "file": "language.json",
+   "frames": 78,
+   "active_first": 24,
+   "active_last": 70
+  },
+  {
+   "key": "later",
+   "file": "later.json",
+   "frames": 63,
+   "active_first": 16,
+   "active_last": 51
+  },
+  {
+   "key": "learn",
+   "file": "learn.json",
+   "frames": 82,
+   "active_first": 28,
+   "active_last": 71
+  },
+  {
+   "key": "like",
+   "file": "like.json",
+   "frames": 66,
+   "active_first": 14,
+   "active_last": 48
+  },
+  {
+   "key": "love",
+   "file": "love.json",
+   "frames": 68,
+   "active_first": 17,
+   "active_last": 57
+  },
+  {
+   "key": "man",
+   "file": "man.json",
+   "frames": 56,
+   "active_first": 21,
+   "active_last": 48
+  },
+  {
+   "key": "many",
+   "file": "many.json",
+   "frames": 157,
+   "active_first": 33,
+   "active_last": 145
+  },
+  {
+   "key": "me",
+   "file": "me.json",
+   "frames": 42,
+   "active_first": 11,
+   "active_last": 27
+  },
+  {
+   "key": "mexico",
+   "file": "mexico.json",
+   "frames": 50,
+   "active_first": 0,
+   "active_last": 49
+  },
+  {
+   "key": "minute",
+   "file": "minute.json",
+   "frames": 65,
+   "active_first": 11,
+   "active_last": 54
+  },
+  {
+   "key": "misunderstand",
+   "file": "misunderstand.json",
+   "frames": 88,
+   "active_first": 30,
+   "active_last": 72
+  },
+  {
+   "key": "money",
+   "file": "money.json",
+   "frames": 69,
+   "active_first": 19,
+   "active_last": 55
+  },
+  {
+   "key": "morning",
+   "file": "morning.json",
+   "frames": 85,
+   "active_first": 30,
+   "active_last": 72
+  },
+  {
+   "key": "mother",
+   "file": "mother.json",
+   "frames": 64,
+   "active_first": 16,
+   "active_last": 50
+  },
+  {
+   "key": "must",
+   "file": "must.json",
+   "frames": 117,
+   "active_first": 18,
+   "active_last": 100
+  },
+  {
+   "key": "myself",
+   "file": "myself.json",
+   "frames": 55,
+   "active_first": 19,
+   "active_last": 50
+  },
+  {
+   "key": "name",
+   "file": "name.json",
+   "frames": 75,
+   "active_first": 29,
+   "active_last": 62
+  },
+  {
+   "key": "nobody",
+   "file": "nobody.json",
+   "frames": 80,
+   "active_first": 15,
+   "active_last": 70
+  },
+  {
+   "key": "none",
+   "file": "none.json",
+   "frames": 81,
+   "active_first": 25,
+   "active_last": 73
+  },
+  {
+   "key": "normal",
+   "file": "normal.json",
+   "frames": 76,
+   "active_first": 23,
+   "active_last": 60
+  },
+  {
+   "key": "now",
+   "file": "now.json",
+   "frames": 71,
+   "active_first": 19,
+   "active_last": 51
+  },
+  {
+   "key": "on-foot",
+   "file": "on-foot.json",
+   "frames": 78,
+   "active_first": 31,
+   "active_last": 64
+  },
+  {
+   "key": "people",
+   "file": "people.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "person",
+   "file": "person.json",
+   "frames": 36,
+   "active_first": 0,
+   "active_last": 35
+  },
+  {
+   "key": "personality",
+   "file": "personality.json",
+   "frames": 74,
+   "active_first": 18,
+   "active_last": 58
+  },
+  {
+   "key": "please",
+   "file": "please.json",
+   "frames": 60,
+   "active_first": 21,
+   "active_last": 53
+  },
+  {
+   "key": "politics",
+   "file": "politics.json",
+   "frames": 143,
+   "active_first": 27,
+   "active_last": 131
+  },
+  {
+   "key": "possible",
+   "file": "possible.json",
+   "frames": 211,
+   "active_first": 9,
+   "active_last": 40
+  },
+  {
+   "key": "president",
+   "file": "president.json",
+   "frames": 68,
+   "active_first": 16,
+   "active_last": 56
+  },
+  {
+   "key": "problem",
+   "file": "problem.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "promote",
+   "file": "promote.json",
+   "frames": 60,
+   "active_first": 12,
+   "active_last": 50
+  },
+  {
+   "key": "recent",
+   "file": "recent.json",
+   "frames": 77,
+   "active_first": 27,
+   "active_last": 69
+  },
+  {
+   "key": "religion",
+   "file": "religion.json",
+   "frames": 143,
+   "active_first": 23,
+   "active_last": 131
+  },
+  {
+   "key": "research",
+   "file": "research.json",
+   "frames": 71,
+   "active_first": 22,
+   "active_last": 64
+  },
+  {
+   "key": "restaurant",
+   "file": "restaurant.json",
+   "frames": 77,
+   "active_first": 24,
+   "active_last": 64
+  },
+  {
+   "key": "sahrawi arab democratic republic",
+   "file": "sahrawi arab democratic republic.json",
+   "frames": 229,
+   "active_first": 1,
+   "active_last": 70
+  },
+  {
+   "key": "see",
+   "file": "see.json",
+   "frames": 60,
+   "active_first": 19,
+   "active_last": 40
+  },
+  {
+   "key": "signing",
+   "file": "signing.json",
+   "frames": 69,
+   "active_first": 17,
+   "active_last": 54
+  },
+  {
+   "key": "sister",
+   "file": "sister.json",
+   "frames": 65,
+   "active_first": 19,
+   "active_last": 57
+  },
+  {
+   "key": "situation",
+   "file": "situation.json",
+   "frames": 87,
+   "active_first": 31,
+   "active_last": 73
+  },
+  {
+   "key": "social",
+   "file": "social.json",
+   "frames": 68,
+   "active_first": 19,
+   "active_last": 57
+  },
+  {
+   "key": "sweet",
+   "file": "sweet.json",
+   "frames": 49,
+   "active_first": 0,
+   "active_last": 48
+  },
+  {
+   "key": "technology",
+   "file": "technology.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "themselves",
+   "file": "themselves.json",
+   "frames": 59,
+   "active_first": 10,
+   "active_last": 51
+  },
+  {
+   "key": "then",
+   "file": "then.json",
+   "frames": 61,
+   "active_first": 16,
+   "active_last": 49
+  },
+  {
+   "key": "they",
+   "file": "they.json",
+   "frames": 59,
+   "active_first": 18,
+   "active_last": 48
+  },
+  {
+   "key": "think",
+   "file": "think.json",
+   "frames": 85,
+   "active_first": 35,
+   "active_last": 77
+  },
+  {
+   "key": "this",
+   "file": "this.json",
+   "frames": 48,
+   "active_first": 12,
+   "active_last": 32
+  },
+  {
+   "key": "time",
+   "file": "time.json",
+   "frames": 64,
+   "active_first": 0,
+   "active_last": 63
+  },
+  {
+   "key": "tomorrow",
+   "file": "tomorrow.json",
+   "frames": 82,
+   "active_first": 28,
+   "active_last": 66
+  },
+  {
+   "key": "too",
+   "file": "too.json",
+   "frames": 166,
+   "active_first": 0,
+   "active_last": 39
+  },
+  {
+   "key": "translate",
+   "file": "translate.json",
+   "frames": 64,
+   "active_first": 17,
+   "active_last": 53
+  },
+  {
+   "key": "trinidad and tobago",
+   "file": "trinidad and tobago.json",
+   "frames": 229,
+   "active_first": 5,
+   "active_last": 71
+  },
+  {
+   "key": "university",
+   "file": "university.json",
+   "frames": 74,
+   "active_first": 26,
+   "active_last": 67
+  },
+  {
+   "key": "wait",
+   "file": "wait.json",
+   "frames": 65,
+   "active_first": 19,
+   "active_last": 51
+  },
+  {
+   "key": "wfd",
+   "file": "wfd.json",
+   "frames": 136,
+   "active_first": 38,
+   "active_last": 124
+  },
+  {
+   "key": "wife",
+   "file": "wife.json",
+   "frames": 62,
+   "active_first": 10,
+   "active_last": 50
+  },
+  {
+   "key": "woman",
+   "file": "woman.json",
+   "frames": 104,
+   "active_first": 17,
+   "active_last": 87
+  },
+  {
+   "key": "work",
+   "file": "work.json",
+   "frames": 78,
+   "active_first": 24,
+   "active_last": 65
+  },
+  {
+   "key": "workshop",
+   "file": "workshop.json",
+   "frames": 66,
+   "active_first": 20,
+   "active_last": 59
+  },
+  {
+   "key": "world",
+   "file": "world.json",
+   "frames": 70,
+   "active_first": 16,
+   "active_last": 58
+  },
+  {
+   "key": "write",
+   "file": "write.json",
+   "frames": 69,
+   "active_first": 17,
+   "active_last": 51
+  },
+  {
+   "key": "yesterday",
+   "file": "yesterday.json",
+   "frames": 57,
+   "active_first": 19,
+   "active_last": 42
+  }
+ ]
+}
