@@ -22,6 +22,7 @@ authors:
     affiliation: "University of Thessaly, Larissa, Greece"
 license: MIT
 repository-code: "https://github.com/ntantaroudas/interact-s2s-bench"
+doi: "10.5281/zenodo.23410736"
 keywords:
   - streaming speech recognition
   - Whisper

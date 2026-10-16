@@ -1,6 +1,6 @@
 # INTERACT streaming speech-to-sign benchmark (`s2sbench`)
 
-<!--DOI-BADGE-->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23410736.svg)](https://doi.org/10.5281/zenodo.23410736)
 
 Measures how **live (streaming) transcription settings affect a real-time signing avatar**.
 Meeting audio is replayed in real time through streaming ASR policies, the committed words are
@@ -20,7 +20,8 @@ platform developed under the CORTEX2 Horizon Europe programme.
 |---|---|
 | Preprint, *Does a Faster Transcript Make a Better Signing Avatar? Streaming Speech Recognition for a Live International Sign Avatar* | https://doi.org/10.20944/preprints202610.0572.v1 |
 | International Sign dictionary used by the benchmark (landmark data of INTERACT) | https://doi.org/10.5281/zenodo.18656296 |
-<!--RELEASE-ROWS-->
+| Archived release of this software and data, version 1.0.0 | https://doi.org/10.5281/zenodo.23410736 |
+| All versions of this software | https://doi.org/10.5281/zenodo.23410735 |
 
 ```
 Meeting audio ─► streaming ASR policy ─► committed words ─► text-to-sign mapper ─► avatar playback
