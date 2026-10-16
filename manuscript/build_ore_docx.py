@@ -12,7 +12,8 @@ in the sections Figure legends and Tables. This script turns that Markdown into 
 ore_template/fill_template.py into ore_template/ORE_Article_Template.docx, in the template's own styles (Cambria 9.5 pt
 body text, Arial headings, Plain Table 1 tables), page set-up, header and footer. Table and figure numbers are Word SEQ
 fields, and every "Table n" and "Figure n" in the text is a cross-reference (REF field with a hyperlink) to its caption.
-Quotes and ellipses are set typographically (’ “ ” …), as in the Word file made earlier with pandoc.
+Quotes and ellipses are set typographically (’ “ ” …), and "No.", "pp." and "et al." are followed by a non-breaking
+space, as in the Word file made earlier with pandoc.
 """
 from __future__ import annotations
 
@@ -129,8 +130,10 @@ def smarten(segs: list[tuple[str, dict]]) -> list[tuple[str, dict]]:
             chars[k] = "’"
         elif c == '"':
             prev = chars[k - 1] if k else " "
-            chars[k] = "“" if prev.isspace() or prev in "([{–—/" else "”"
+            chars[k] = "\u201c" if prev.isspace() or prev in "([{\u2013\u2014/" else "\u201d"
     new = "".join(chars)
+    # a non-breaking space after "No.", "pp." and "et al.", as pandoc writes it, so that they stay with what follows
+    new = re.sub(r"(?<![A-Za-z])(No|pp|et al)\. (?=\S)", "\\1.\u00a0", new)
     out, pos = [], 0
     for s, base in segs:
         out.append((new[pos:pos + len(s)].replace("...", "…"), base))

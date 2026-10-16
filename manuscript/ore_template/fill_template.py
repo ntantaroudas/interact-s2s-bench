@@ -4,7 +4,11 @@
 
 ORE_Article_Template.docx is the official Open Research Europe Article Template (Word, created 2022-12-14, last modified
 2023-01-04, SHA-256 f5d96d7f2eca78e8e3f34889cb2be3d49964abbf8218293892d9fdf72790b64d), the same file as in the authors'
-KyGround and ConstrainedTranslation studies, whose filler this module reuses unchanged apart from this docstring. The template is edited at the XML level. Its theme, settings, header
+KyGround and ConstrainedTranslation studies, whose filler this module reuses with three changes: the cross-references
+carry \\* MERGEFORMAT so that updating them in Word keeps them in plain type (the caption numbers they point to are
+bold), the tables have the bold first column of the template's example table, and the text paragraphs have widow
+and orphan control and each reference is kept on one page (the template switches widow control off in its document
+defaults, which leaves single lines at the top or bottom of pages). The template is edited at the XML level. Its theme, settings, header
 ("https://open-research-europe.ec.europa.eu | editorial@..."), footer ("Information Classification: General",
 "Page X of Y"), page set-up and custom properties are kept byte for byte. Otherwise
 
@@ -146,7 +150,8 @@ def runs_xml(doc: Doc, runs: list[dict], size: int | None = None, bold: bool = F
                        f'{t_xml(r["t"])}</w:r></w:hyperlink>')
         elif r.get("xref"):
             doc.xrefs.append((r["xref"], r["n"]))
-            out.append(field(f"REF {bookmark_name(r['xref'], r['n'])} \\h", str(r["n"]), rpr(r, size, bold)))
+            out.append(field(f"REF {bookmark_name(r['xref'], r['n'])} \\h \\* MERGEFORMAT", str(r["n"]),
+                             rpr(r, size, bold)))
         else:
             out.append(f"<w:r>{rpr(r, size, bold)}{t_xml(r['t'])}</w:r>")
     return "".join(out)
@@ -163,6 +168,7 @@ def para(doc: Doc, runs: list[dict], style: str = "BodyText", *, keep_next=False
         p.append("<w:keepLines/>")
     if page_break:
         p.append("<w:pageBreakBefore/>")
+    p.append("<w:widowControl/>")                       # no single lines at the top or bottom of a page
     if num:
         p.append(f'<w:numPr><w:ilvl w:val="{num[1]}"/><w:numId w:val="{num[0]}"/></w:numPr>')
     if tabs:
@@ -219,7 +225,7 @@ def table_xml(doc: Doc, b: dict) -> list[str]:
     out = [caption_xml(doc, "Table", b["n"], b["caption"], keep_next=True, before=240, after=100)]
     tbl = ['<w:tbl><w:tblPr><w:tblStyle w:val="PlainTable1"/>'
            f'<w:tblW w:w="{CONTENT_W}" w:type="dxa"/><w:tblLayout w:type="fixed"/>'
-           '<w:tblLook w:val="0420" w:firstRow="1" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" '
+           '<w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" '
            'w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid>'
            + "".join(f'<w:gridCol w:w="{w}"/>' for w in widths) + "</w:tblGrid>"]
 
@@ -321,7 +327,7 @@ def body_xml(doc: Doc, blocks: list[dict]) -> str:
             out.append(para(doc, b["runs"], "ListParagraph", num=(numid, 0), tabs=[599], before=60,
                             after=160 if last else 0, line=256, size=BODY_SZ, mark_sz=BODY_SZ))
         elif t == "ref":
-            out.append(para(doc, [{"t": f"{b['n']}.\t"}] + b["runs"], tabs=[425], after=60,
+            out.append(para(doc, [{"t": f"{b['n']}.\t"}] + b["runs"], keep_lines=True, tabs=[425], after=60,
                             ind={"left": 425, "hanging": 425}))
         elif t == "table":
             out += table_xml(doc, b)
