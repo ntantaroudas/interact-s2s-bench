@@ -83,6 +83,14 @@ tantaroudas2026arxiv_interact: >-
   Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. INTERACT: an AI-driven extended reality framework for accesible communication featuring real-time sign language interpretation and emotion recognition. arXiv preprint arXiv:2604.05605. 2026. https://doi.org/10.48550/arXiv.2604.05605
 tantaroudas2026arxiv_modular: >-
   Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. AI-driven modular services for accessible multilingual education in immersive extended reality settings: integrating speech processing, translation, and sign language rendering. arXiv preprint arXiv:2604.05591. 2026. https://doi.org/10.48550/arXiv.2604.05591
+tantaroudas2026pp_streaming: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I. Does a faster transcript make a better signing avatar? Streaming speech recognition for a live International Sign avatar. Preprints. 2026, 2026100572. https://doi.org/10.20944/preprints202610.0572.v1
+tantaroudas2026pp_rewriting: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. Rewriting text for a sign language avatar with several hundred signs, what it saves in fingerspelling and what it costs in meaning. Preprints. 2026, 2026101279. https://doi.org/10.20944/preprints202610.1279.v1
+tantaroudas2026pp_translate: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I, Papatheou E. Translate, then rewrite, or translate straight into the avatar’s words? Signable English from Greek, French, Spanish and German for a sign language avatar. Preprints. 2026, 2026101475. https://doi.org/10.20944/preprints202610.1475.v1
+zenodo_s2sbench: >-
+  Tantaroudas ND, McCracken AJ, Karachalios I. INTERACT streaming speech-to-sign benchmark (s2sbench), version 1.0.0 [Software]. Zenodo, 2026. https://doi.org/10.5281/zenodo.23410736
 zenodo_isl: >-
   Tantaroudas ND. International Sign extractions and data AVATAR animations [Software]. Zenodo, 2026. https://doi.org/10.5281/zenodo.18656296
 lugaresi2019: >-

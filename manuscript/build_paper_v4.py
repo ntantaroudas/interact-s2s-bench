@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build version 4 of the manuscript (plain-language version, numbers in tables).
 
-    python manuscript/build_paper_v4.py      # writes manuscript/INTERACT_StreamingS2S_ORE_v4.md
+    python manuscript/build_paper_v4.py      # writes manuscript/INTERACT_StreamingS2S_ORE_v5.md
 
 Uses the same results files as build_paper.py and its variables ({{name}}), table layout and citation
 numbering ([@key] -> [n] in order of first appearance), with the plain-language tables of version 4 and the
@@ -300,11 +300,64 @@ def tables(V):
         for _, r in sel.iterrows():
             a, b = SHORT[r["a"]], SHORT[r["b"]]
             star = "**" if r["p_holm"] < 0.05 else ""
-            pairs.append(f"{star}{a}–{b}: {r['p_holm']:.2g}{star}")
-        rows.append({"Measure": lab, "Setting": ctx, "Friedman χ²(3), p": f"{f(fr['friedman_chi2'], 1)}, {fr['friedman_p']:.2g}",
+            pairs.append(f"{star}{a}–{b}: {pfmt(r['p_holm'])}{star}")
+        rows.append({"Measure": lab, "Setting": ctx, "Friedman χ²(3), p": f"{f(fr['friedman_chi2'], 1)}, {pfmt(fr['friedman_p'])}",
                      "Pairwise Wilcoxon, Holm-adjusted p": ", ".join(pairs)})
     T["stats4"] = md_table(pd.DataFrame(rows))
     return T
+
+
+def pfmt(p):
+    """A p-value with two significant digits, small values as 4.5 × 10^−7^ (superscript) instead of 4.5e-07."""
+    s = f"{p:.2g}"
+    m = re.match(r"^(\d(?:\.\d+)?)e-0*(\d+)$", s)
+    return f"{m.group(1)} × 10^−{m.group(2)}^" if m else s
+
+
+def ore_layout(md):
+    """Take the figures (image line and legend) and the tables (caption, table and note) out of the text, in order."""
+    lines = md.split("\n")
+    keep, figures, tables = [], [], []
+    i = 0
+
+    def next_nonblank(k):
+        while k < len(lines) and not lines[k].strip():
+            k += 1
+        return k
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("![](") and "<!--FIGURE_LEGENDS-->" in "\n".join(lines[i:]):
+            k = next_nonblank(i + 1)
+            if not re.match(r"^\*\*Figure \d+\. ", lines[k]):
+                raise SystemExit(f"figure without legend: {line}")
+            figures.append(line + "\n\n" + lines[k])
+            i = k + 1
+            continue
+        m = re.match(r"^\*\*Table (\d+)\.\*\* ", line)
+        if m and "<!--TABLES-->" in "\n".join(lines[i:]):
+            k = next_nonblank(i + 1)
+            rows = []
+            while k < len(lines) and lines[k].startswith("|"):
+                rows.append(lines[k])
+                k += 1
+            if len(rows) < 3:
+                raise SystemExit(f"Table {m.group(1)}: no table after its caption")
+            block = line + "\n\n" + "\n".join(rows)
+            k2 = next_nonblank(k)
+            if k2 < len(lines) and lines[k2].startswith("*Note:*"):
+                block += "\n\n" + lines[k2]
+                k = k2 + 1
+            tables.append(block)
+            i = k
+            continue
+        keep.append(line)
+        i += 1
+    for kind, items in (("Figure", figures), ("Table", tables)):
+        nums = [int(re.search(rf"\*\*{kind} (\d+)\.", x).group(1)) for x in items]
+        if nums != list(range(1, len(nums) + 1)):
+            raise SystemExit(f"{kind}s out of order: {nums}")
+    text = re.sub(r"\n{3,}", "\n\n", "\n".join(keep))
+    return text, figures, tables
 
 
 def main():
@@ -315,9 +368,11 @@ def main():
     V.update(V2)
     T = tables(V)
     out = bp.render(tmpl, V, T, refs)
-    # Open Research Europe asks for the figure legends at the end of the manuscript: repeat the legends of the text
-    legends = re.findall(r"^\*\*Figure \d+\. .*$", out.split("<!--FIGURE_LEGENDS-->")[0], flags=re.M)
-    out = out.replace("<!--FIGURE_LEGENDS-->", "\n\n".join(legends))
+    # Open Research Europe asks for the figure legends and the tables at the end of the manuscript, not in the text:
+    # the figures (image and legend) and the tables (caption, table and note) move to the last two sections
+    out, figures, table_blocks = ore_layout(out)
+    out = out.replace("<!--FIGURE_LEGENDS-->", "\n\n".join(figures)).replace("<!--TABLES-->", "\n\n".join(table_blocks))
+    legends = [f.split("\n\n", 1)[1] for f in figures]
     for lg in legends:
         title = re.match(r"\*\*Figure \d+\. (.*?)\*\*", lg).group(1)
         if len(title.split()) > 15:
@@ -328,7 +383,7 @@ def main():
     print(f"abstract: {len(abstract.replace('**', '').split())} words with headings, "
           f"headings {re.findall(r'^[*][*](\w+)[*][*]$', abstract, flags=re.M)}, {len(keywords)} keywords, "
           f"{len(legends)} figure legends at the end, first person: {len(first_person)}")
-    dst = os.path.join(HERE, "INTERACT_StreamingS2S_ORE_v4.md")
+    dst = os.path.join(HERE, "INTERACT_StreamingS2S_ORE_v5.md")
     open(dst, "w", encoding="utf-8").write(out)
     n_pending = len(re.findall(r"\[PENDING:", out))
     semis = [ln for ln in out.splitlines() if ";" in ln]

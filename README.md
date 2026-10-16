@@ -77,8 +77,8 @@ python scripts/spurious_breakdown.py --runs runs_cpu --out results/streaming
 # figures and article: figures drawn to the figure guidelines of Open Research Europe (150 or 75 mm wide,
 # 8 pt text, RGB, EPS and PDF, uncompressed 600 dpi TIFF, 300 dpi PNG, checked in figures_v4/figure_check.md)
 python scripts/make_figures_plain.py --example ES2004a 35 46.5
-python manuscript/build_paper_v4.py                 # -> manuscript/INTERACT_StreamingS2S_ORE_v4.md
-python manuscript/make_docx.py "$PWD/manuscript/INTERACT_StreamingS2S_ORE_v4.md"   # Word file, needs pandoc
+python manuscript/build_paper_v4.py                 # -> manuscript/INTERACT_StreamingS2S_ORE_v5.md
+python manuscript/build_ore_docx.py --pdf           # -> the Word file in the official ORE Article Template
 ```
 
 `bash scripts/finalize_results.sh` runs the scoring, figure and article steps after the streaming runs in

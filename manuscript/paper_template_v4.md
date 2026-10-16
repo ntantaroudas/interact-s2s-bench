@@ -2,11 +2,9 @@
 
 How live transcription shapes a signing avatar: an open benchmark of streaming speech recognition for real-time International Sign translation in meetings
 
-**Article type:** Research Article
-
 # Authors and affiliations
 
-N. D. Tantaroudas^1\*^, A. J. McCracken^2^, I. Karachalios^3^
+Nikolaos D. Tantaroudas^1\*^, Andrew J. McCracken^2^, Ilias Karachalios^3^
 
 ^1^Institute of Communication and Computer Systems (ICCS), Iroon Polytechneiou 9, 15773, Zografou, Athens, Greece
 
@@ -38,9 +36,9 @@ The avatar's signing speed, not the recogniser's delay, is the main bottleneck. 
 
 streaming speech recognition, Whisper, simultaneous policy, sign language avatar, International Sign, fingerspelling, latency, accessibility
 
-# Plain Language Summary
+# Plain language summary
 
-Some systems help deaf people follow a spoken meeting by turning speech into text and then into sign language performed by an animated character, an avatar. To work live, the speech recogniser must decide how long to listen before it writes words down. This study built a free, repeatable test of what then reaches the avatar. Even a perfect transcript of business meetings asks the avatar studied here to sign far more than it can, because most words have no sign in its dictionary and must be spelled out letter by letter. Then 48 minutes of the recordings were replayed through four common ways of doing live transcription. Cutting the speech into one-second pieces, as INTERACT does, made the most mistakes and even wrote "thank you" during pauses, so the avatar would spell out "thank" although nobody had said it. Waiting for pauses gave accurate text that arrived late and all at once. AlignAtt, a method that confirms words while the speaker is still talking, gave as many correct signs in time as the one-second pieces, with about half as many wrong ones. Skipping unknown words, playing signs faster and dropping signs that would come too late keep the avatar close to the speaker.
+Some systems help deaf people follow a spoken meeting by turning speech into text and then into sign language performed by an animated character, an avatar. To work live, the speech recogniser must decide how long to listen before it writes words down. This study built a free, repeatable test of what then reaches the avatar. Even a perfect transcript of business meetings asks the avatar studied here to sign far more than it can, because most words have no sign in its dictionary and must be spelled out letter by letter. Then 48 minutes of the recordings were replayed through four common ways of doing live transcription. Cutting the speech into one-second pieces made the most mistakes and even wrote "thank you" during pauses, so the avatar would spell out "thank" although nobody had said it. Waiting for pauses gave accurate text that arrived late and all at once. AlignAtt, a method that confirms words while the speaker is still talking, gave as many correct signs in time as the one-second pieces, with about half as many wrong ones. Skipping unknown words, playing signs faster and dropping signs that would come too late keep the avatar close to the speaker.
 
 # Introduction
 
@@ -50,7 +48,7 @@ Streaming speech recognition with models such as Whisper, which were built to tr
 
 A signing avatar, however, uses the transcript differently from a person reading captions. For a dictionary lookup, a fragment such as "meet" for "meeting" is not a near miss but a wrong sign or, more often, a word spelled out letter by letter, which is called fingerspelling. An avatar that plays one clip at a time turns a burst of words into a queue. Signing also takes longer per item than speaking, because a sign takes longer to produce than a spoken word, although whole statements take about the same time [@bellugi1972], and fingerspelling, a noticeable part of everyday signing in American Sign Language [@padden2003], needs one hand shape per letter. Research on captions has shown that the word error rate is a poor guide to what deaf users experience [@kafle2017], and for avatars this question has, to the authors' knowledge, not been studied.
 
-Research on sign language production has moved from phrase lookup to neural generation [@bragg2019; @rastgoo2021; @saunders2020]. TESSA translated a post office clerk's speech into British Sign Language in a narrow domain [@cox2002], later avatars were driven by linguistic models of sign notation [@elliott2008; @ebling2016], and recent systems join 3D signs retrieved from a dictionary of glosses [@zuo2024], provide an open-source baseline that looks up glosses and poses [@moryossef2023] or aim for very short delays with a streaming speech front end [@li2025]. Pipelines built from a dictionary of clips, like that of INTERACT, suit languages with few resources, such as IS, a flexible contact variety rather than a standardised national language [@hiddinga2011]. Deaf organisations warn, however, that replacing words with signs is not translation, especially for live, complex content [@wfd2018], and research on language technology argues that signed languages must be treated as languages in their own right [@yin2021]. Studies with deaf users have examined the acceptance, comprehensibility and naturalness of avatars [@kipp2011; @wasserroth2025], but the effects of live operation have rarely been measured.
+Research on sign language production has moved from phrase lookup to neural generation [@bragg2019; @rastgoo2021; @saunders2020]. TESSA translated a post office clerk's speech into British Sign Language in a narrow domain [@cox2002], later avatars were driven by linguistic models of sign notation [@elliott2008; @ebling2016], and recent systems join 3D signs retrieved from a dictionary of glosses [@zuo2024], provide an open-source baseline that looks up glosses and poses [@moryossef2023] or aim for very short delays with a streaming speech front end [@li2025]. Pipelines built from a dictionary of clips suit languages with few resources, such as IS, a flexible contact variety rather than a standardised national language [@hiddinga2011]. For an IS avatar with a dictionary of several hundred signs, companion studies measured what rewording English text into words that have a sign saves in fingerspelling and costs in meaning [@tantaroudas2026pp_rewriting], and how text in Greek, French, Spanish and German is best turned into English that such an avatar can sign [@tantaroudas2026pp_translate]. Deaf organisations warn, however, that replacing words with signs is not translation, especially for live, complex content [@wfd2018], and research on language technology argues that signed languages must be treated as languages in their own right [@yin2021]. Studies with deaf users have examined the acceptance, comprehensibility and naturalness of avatars [@kipp2011; @wasserroth2025], but the effects of live operation have rarely been measured.
 
 This preliminary study asks how the settings of live transcription affect the signing, through four research questions:
 
@@ -66,13 +64,15 @@ The contributions are:
 3. a controlled comparison of four streaming methods on 16 meeting excerpts, scored against a perfect transcript of the same audio,
 4. design recommendations for real-time speech-to-sign avatars.
 
+A shorter version of this study, with the same data and main results, has been posted as a preprint [@tantaroudas2026pp_streaming].
+
 The study extends the authors' earlier platform papers and preprints [@tantaroudas2026salento; @tantaroudas2026ore; @tantaroudas2026arxiv_interact] with a systematic evaluation of the live pipeline on a meeting corpus, and it involves no new human participants.
 
 # Methods
 
 ## Overview
 
-The benchmark follows the speech through the system. A streaming method decides when to run the recogniser and which words to release, and every released word keeps its text, the time at which it was spoken and its release time. A mapping rule turns each group of released words into sign items, which are dictionary signs, fingerspelled words or words left to the captions, and an avatar model plays the items one after the other. A second path uses the perfect, hand-made transcript without any recognition delay. This perfect-transcript analysis covers the full meetings and shows what the dictionary and the avatar allow on their own (RQ1), while the streaming experiment covers one excerpt per meeting and measures what the recogniser adds (RQ2 to RQ4).
+The benchmark follows the speech through the system. A streaming method decides when to run the recogniser and which words to release, and every released word keeps its text, the time at which it was spoken and its release time. A mapping rule turns each group of released words into sign items, which are dictionary signs, fingerspelled words or words left to the captions, and an avatar model plays the items one after the other. A second path uses the perfect, hand-made transcript without any recognition delay. This perfect-transcript analysis covers the full meetings and shows what the dictionary and the avatar allow on their own (RQ1), while the streaming experiment covers one excerpt per meeting and measures what the recogniser adds (RQ2 to RQ4). The code, the run files and the results of the benchmark are openly available on GitHub and archived on Zenodo [@zenodo_s2sbench].
 
 Figure 1 shows these stages from left to right, with the settings compared below each box and the measures taken at each stage in italics.
 
@@ -122,7 +122,7 @@ The avatar plays one clip at a time. A sign becomes available when its last word
 
 All methods use the same recogniser, Whisper small [@radford2023], with English as the input language (Table 5). INTERACT uses the larger Whisper large-v2 on a graphics processor [@tantaroudas2026ore], but the experiment ran on ordinary processors, a choice discussed in the Limitations. P1 and P2 are implementations written for this study around faster-whisper [@fasterwhisper] with the decoding settings of Whisper-Streaming [@machacek2023], and they transcribe each piece of audio on its own.
 
-- **P1, fixed chunks,** is the deployed INTERACT setting [@tantaroudas2026ore]. It transcribes every one-second window with a little extra audio on each side, keeps the words in the middle of each window and also transcribes windows without speech.
+- **P1, fixed chunks,** is the deployed setting [@tantaroudas2026ore]. It transcribes every one-second window with a little extra audio on each side, keeps the words in the middle of each window and also transcribes windows without speech.
 - **P2, pause-based utterances,** imitates the pause-based transcription of the Mediation Gateway, which is not public. A voice activity detector (VAD), a small model that detects speech [@silero2024], splits the audio into utterances, and each utterance is transcribed when it ends.
 - **P3, LocalAgreement-2,** from Whisper-Streaming [@machacek2023], transcribes a growing buffer again and again and releases the longest beginning on which two successive attempts agree [@liu2020; @polak2022]. At the end of each stretch of speech it releases its last unconfirmed guess without transcribing the audio received since the previous attempt, a behaviour that was kept.
 - **P4, AlignAtt,** from SimulStreaming [@papi2023alignatt; @wang2024; @machacek2025], releases the words that the recogniser's attention marks as safe.
@@ -194,7 +194,7 @@ Figure 2 shows the resulting signing demand for each mapping rule and playback s
 
 **Figure 2. Signing demand of the three mapping rules with a perfect transcript.** Signing demand is the number of seconds of signing requested per second of meeting when a perfect transcript arrives without delay (AMI evaluation set, mean and 95% bootstrap confidence interval over 16 meetings, logarithmic scale). Values above the line at one cannot be sustained by an avatar that plays one clip at a time. Playback speeds are multiples of the 30 frames per second (fps) of the clips. (a) Clips trimmed to the part with visible hands. (b) Full clips.
 
-The demand stays above one for M0 and M1 even at triple speed, playing whole clips multiplies it, and on average only M2 at 1.5× or faster falls below one (Table 9). Above one, the queue grows throughout the meeting, so with the deployed rule at normal speed the median sign comes more than an hour after it was spoken. The averages also hide differences between meetings, and in the fast real meetings even M2 at 1.5× overloads the avatar (note to Table 9).
+The demand stays above one for M0 and M1 even at triple speed, playing whole clips multiplies it, and on average only M2 at 1.5× or faster falls below one (Table 9). Above one, the queue grows throughout the meeting, so with the deployed rule at normal speed the median sign comes more than an hour after it was spoken. The averages also hide differences between meetings, and in the fast-real meetings even M2 at 1.5× overloads the avatar (note to Table 9).
 
 **Table 9.** Outcomes with a perfect transcript for each mapping rule and playback speed (clips trimmed to the part with visible hands, mean over 16 meetings). With all items played in order, the delays are medians over all delivered signs. The last three columns use a lag limit of 4 s, without and with a constant recognition delay of 2 s.
 
@@ -350,9 +350,9 @@ Based on the perfect-transcript analysis and the streaming experiment, this stud
 - **Do not drive a signing avatar with pause-based utterances,** because their bursts conflict with any lag limit.
 - **Treat the signing demand as a design budget and monitor it live.**
 - **Trim clips to the part with visible hands and allow faster playback,** ideally with blending between clips.
-- **Limit fingerspelling,** for example to proper names and short words, and send the remaining unknown words to the captions.
+- **Limit fingerspelling,** for example to proper names and short words, and send the remaining unknown words to the captions. Rewording is another option, since replacing each missing word by a similar word with a sign removed more than half of the fingerspelling at some cost in meaning [@tantaroudas2026pp_rewriting].
 - **Use a lag limit,** so that the avatar never falls far behind the speaker.
-- **Expand the dictionary in order of word frequency,** because a short list of frequent words accounts for a large share of the remaining fingerspelling in this domain (Table 10).
+- **Expand the dictionary in order of word frequency,** because a short list of frequent words accounts for a large share of the remaining fingerspelling in this domain (Table 10). The rewording study reached the same advice, because with a dictionary of the most frequent English words every method tested kept most of the meaning [@tantaroudas2026pp_rewriting].
 
 These recommendations aim at timeliness. They do not turn word-by-word substitution into IS translation, which needs a model of IS grammar and the involvement of deaf signers [@bragg2019; @yin2021].
 
@@ -365,12 +365,12 @@ These recommendations aim at timeliness. They do not turn word-by-word substitut
 - **P2 is an approximation** of the pause-based behaviour of the Mediation Gateway, not the gateway itself.
 - **Computing costs are not fully comparable,** because P4 runs on a different engine with a different numerical precision, and the timings on an ordinary processor show relative cost only.
 - **Reference implementations were used as released,** including the release by P3 of its last guess at the end of each stretch of speech.
-- **One corpus and one language.** AMI is in English, with clean close-talk audio and a design-meeting scenario, which shapes the vocabulary and the most frequent missing signs.
+- **One corpus and one language.** AMI is in English, with clean close-talk audio and a design-meeting scenario, which shapes the vocabulary and the most frequent missing signs. Speech in another language must first be translated into English for the dictionary. For written Greek and French sentences, translating as usual and rewording afterwards proved the better design [@tantaroudas2026pp_translate], but how streaming recognition in these languages affects the signing was not measured.
 - **Simple mapping rules.** M1 and M2 are transparent rules chosen to limit the load, not linguistically validated IS translations.
 
 ## Future work
 
-Future work will repeat the streaming experiment with Whisper large-v2 on the deployment graphics processor, with computing time included, and will extend it to whole meetings. Further planned steps are a user study with deaf IS users to calibrate the computed measures against comprehension and acceptability, the replacement of word lookup with constrained IS glossing by large language models, and the addition of clip blending and an adaptive playback speed to the avatar.
+Future work will repeat the streaming experiment with Whisper large-v2 on the deployment graphics processor, with computing time included, and will extend it to whole meetings. Further planned steps are a user study with deaf IS users to calibrate the computed measures against comprehension and acceptability, the replacement of word lookup with constrained IS glossing by large language models, and the addition of clip blending and an adaptive playback speed to the avatar. Language models restricted to the words of the dictionary removed almost all fingerspelling but kept only part of the meaning [@tantaroudas2026pp_rewriting; @tantaroudas2026pp_translate], so such constraints will have to be judged on meaning as well as on signing load.
 
 # Conclusions
 
@@ -380,6 +380,36 @@ This paper presented an open benchmark that measures how live speech recognition
 
 This study used only previously published, openly licensed data: the AMI Meeting Corpus (CC BY 4.0), whose recordings were collected with the consent of the participants by the AMI project [@carletta2006], and landmark data derived from public IS dictionary videos [@zenodo_isl]. No new data were collected from human participants, so ethical approval and consent were not required.
 
+# Data and software availability
+
+## Source data
+
+- AMI Meeting Corpus, Mix-Headset audio and manual annotations release 1.6.2, full-corpus-ASR evaluation partition. University of Edinburgh. https://groups.inf.ed.ac.uk/ami/corpus/ (licence: CC BY 4.0) [@carletta2006; @amisets].
+- International Sign landmark dictionary: Tantaroudas ND. *International Sign extractions and data AVATAR animations* [Software]. Zenodo, 2026. https://doi.org/10.5281/zenodo.18656296 [@zenodo_isl].
+
+## Underlying data
+
+Zenodo: INTERACT streaming speech-to-sign benchmark (s2sbench), version 1.0.0. https://doi.org/10.5281/zenodo.23410736 [@zenodo_s2sbench]
+
+This project contains the following underlying data:
+
+- `runs_cpu/` and `runs_cpu_repeat/`: the released words of every streaming run, with their recognition and release times, and the computing times.
+- `results/`: the start times of the excerpts, the per-meeting and summary tables of all measures, the statistical tests, the results of the perfect-transcript analysis and the data behind every figure.
+- `data/lexicon.json`: the metadata of the IS dictionary (entry keys, frame counts and the spans with visible hands, without landmark coordinates).
+- `manuscript/figures_v4/`: the figures of this article as EPS, PDF and PNG files.
+
+Data are available under the terms of the Creative Commons Attribution 4.0 International license (CC-BY 4.0). The code in the same archive is under the MIT License.
+
+## Software availability
+
+Source code available from: https://github.com/ntantaroudas/interact-s2s-bench
+
+Archived software available from: https://doi.org/10.5281/zenodo.23410736 [@zenodo_s2sbench]
+
+License: MIT License
+
+The benchmark uses Whisper-Streaming (MIT) and SimulStreaming (MIT) at fixed versions, the Simul-Whisper end-of-word models (Apache-2.0), faster-whisper (MIT) [@fasterwhisper], Silero VAD (MIT) [@silero2024], MeetEval (MIT) [@vonneumann2023], JiWER (Apache-2.0) [@jiwer] and Simplemma (MIT) [@simplemma].
+
 # Competing interests
 
 N.D.T. and A.J.M. are affiliated with DASKALOS-APPS, which developed INTERACT under CORTEX2 funding and is pursuing its commercial exploitation. The authors declare no other competing interests.
@@ -388,32 +418,13 @@ N.D.T. and A.J.M. are affiliated with DASKALOS-APPS, which developed INTERACT un
 
 This research was supported by FSTP funding from the Horizon Europe research and innovation programme under grant agreement No. 101070192 (CORTEX2) [@cordis_cortex2]. Views and opinions expressed are those of the authors only and do not necessarily reflect those of the European Union or the granting authority. Neither the European Union nor the granting authority can be held responsible for them. The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
 
-# Declaration of generative AI and AI-assisted technologies in the writing process
-
-During the preparation of this work the authors used an AI assistant (Claude, Anthropic) to help write the analysis code, draft the manuscript text and rewrite it in plainer language. The authors reviewed, tested and edited all code and text, verified all references against the records of their publishers, and take full responsibility for the content of the publication.
-
 # Acknowledgements
 
 The authors thank the AMI Consortium for releasing the AMI Meeting Corpus, the authors of Whisper-Streaming, Simul-Whisper and SimulStreaming for making their implementations openly available, and the CORTEX2 consortium and the KENG Institute for their support of the INTERACT project.
 
-# Data availability
+# Declaration of generative AI and AI-assisted technologies in the writing process
 
-## Underlying data
-
-- AMI Meeting Corpus, Mix-Headset audio and manual annotations release 1.6.2, full-corpus-ASR evaluation partition. University of Edinburgh. https://groups.inf.ed.ac.uk/ami/corpus/ (licence: CC BY 4.0) [@carletta2006; @amisets].
-- International Sign landmark dictionary: Tantaroudas ND. *International Sign extractions and data AVATAR animations* [Software]. Zenodo, 2026. https://doi.org/10.5281/zenodo.18656296 [@zenodo_isl].
-
-## Extended data
-
-- **[TO DEPOSIT with the software release below]** Tantaroudas ND, McCracken AJ, Karachalios I. *INTERACT streaming speech-to-sign benchmark: run files, per-meeting results and figure data*. Zenodo, 2026. https://doi.org/[DOI to be minted]. The release contains the released words with their recognition and release times for every run (`runs_cpu/`), the start times of the excerpts, the per-meeting and summary tables of all measures, the statistical tests, the results of the perfect-transcript analysis, the dictionary metadata and the data behind every figure (`results/`). Licence: CC BY 4.0 for the data, MIT for the code.
-
-## Software availability
-
-- **Source code available from:** https://github.com/ntantaroudas/interact-s2s-bench **[TO CREATE: repository not yet public]**
-- **Archived source code at time of publication:** https://doi.org/[Zenodo DOI to be minted] **[TO CREATE: Zenodo release of the repository]**
-- **Licence:** MIT (OSI approved).
-
-The benchmark uses Whisper-Streaming (MIT) and SimulStreaming (MIT) at fixed versions, the Simul-Whisper end-of-word models (Apache-2.0), faster-whisper (MIT) [@fasterwhisper], Silero VAD (MIT) [@silero2024], MeetEval (MIT) [@vonneumann2023], JiWER (Apache-2.0) [@jiwer] and Simplemma (MIT) [@simplemma].
+During the preparation of this work the authors used an AI assistant (Claude, Anthropic) to help write the analysis, draft the manuscript text and rewrite it in plainer language. The authors reviewed and edited the text, and take full responsibility for the content of the publication.
 
 # References
 
@@ -422,3 +433,7 @@ The benchmark uses Whisper-Streaming (MIT) and SimulStreaming (MIT) at fixed ver
 # Figure legends
 
 <!--FIGURE_LEGENDS-->
+
+# Tables
+
+<!--TABLES-->

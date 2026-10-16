@@ -12,5 +12,5 @@ python scripts/make_figures_plain.py --example ES2004a 35 46.5
 # the article sources are not part of every copy of the code
 if [ -f manuscript/build_paper_v4.py ]; then
   python manuscript/build_paper_v4.py
-  python manuscript/make_docx.py "$PWD/manuscript/INTERACT_StreamingS2S_ORE_v4.md"
+  python manuscript/build_ore_docx.py
 fi
